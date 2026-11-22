@@ -1,0 +1,9 @@
+# Üretilmiş ses dosyaları — Git'e girmez (Drive'da tutulur)
+out*/
+work*/
+*.mp3
+*.wav
+
+# Geçici
+__pycache__/
+*.pyc
