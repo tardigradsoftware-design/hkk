@@ -1,0 +1,602 @@
+[
+ {
+  "id": "VID_001",
+  "slug": "001_edevlet_unutulan_paralar_takasbank",
+  "short": "e-Devlet'in içinde milyonlarca kişinin haberinin bile olmadığı, yıllardır bekleyen şahıs ödemeleri ve unutulmuş paralar duruyor. Belki senin adına da çekilmeyi bekleyen bir tutar var, otuz saniyede kontrol et. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ALACAK yaz, hemen göndereyim.",
+  "uzun": "Eski işyerlerinden kalan kesintiler, fazla ödenen SGK primleri veya unutulmuş banka alacakların şu an devlet sistemlerinde bekliyor olabilir. e-Devlet üzerinden kontrol etmen gereken dört kritik ekranı gösteriyorum. e-Devlet'e giriş yap ve sırayla şu dört aramayı yap. Birincisi Şahıs Ödemeleri Sorgulama; burada SGK'dan alacağın rapor, yol veya fazla prim iadeleri görünür. İkincisi Takasbank Bireysel Emeklilik ve Hayat Sigortası Bilgilendirme İşlemleri; eski işyerlerinin açtığı unutulmuş BES hesaplarını görürsün. Üçüncüsü PTT Kurum Ödemeleri Sorgulama ekranı. Dördüncüsü BDDK Zaman Aşımına Uğrayan Hesaplar sorgusu. Bakiye görürsen tanımlı IBAN ekranından hesabına aktarabilirsin."
+ },
+ {
+  "id": "VID_002",
+  "slug": "002_kredi_karti_aidati_iadesi",
+  "short": "Bankan senden her yıl kredi kartı aidatı kesiyorsa, bu parayı son kuruşuna kadar geri alabileceğini biliyor muydun? Şubeye gitmeden, e-Devlet üzerinden iki dakikada geçmiş yılların aidatını bile isteyebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma AİDAT yaz, hemen göndereyim.",
+  "uzun": "Bankan her yıl kredi kartından binlerce lira aidat kesiyor ve müşteri hizmetlerini arayıp geri alamıyorsan, şubeye hiç gitmeden bu parayı kuruşu kuruşuna geri almanın resmi yolunu şimdi ekran başında uyguluyoruz. e-Devlet Kapısı'na giriş yap ve arama çubuğuna Tüketici Hakem Heyeti yazarak TÜBİS sistemini aç. Sağ üstten Yeni Başvuru sekmesine tıkla. Şikayet edilen firma kısmına bankanın ticari unvanını veya vergi numarasını gir. Uyuşmazlık bedeline ekstrede kesilen aidat tutarını yaz ve talep türünü bedel iadesi seç. Açıklama bölümüne ücretsiz alternatif kart sunulmadan haksız kesilen aidatın iadesini talep ettiğini belirt. Ekstre PDF'ini yükleyip onayla; karar çıktığında banka paranı hesabına geri yatırır."
+ },
+ {
+  "id": "VID_003",
+  "slug": "003_izinsiz_hat_ve_sirket_kilidi",
+  "short": "Kimlik bilgilerin sızdıysa, şu an senin haberin olmadan adına bir şirket kuruluyor ya da yeni bir telefon hattı açılıyor olabilir. Ve bunu engellemek sadece otuz saniyeni alıyor. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KİLİT yaz, hemen göndereyim.",
+  "uzun": "Şu an Türkiye'de kimlik bilgilerinle senden habersiz şirket kurulmasını ya da adına açık hat açılmasını engelleyecek iki gizli e-Devlet kilidinden belki de haberin yok. Bir dakikada hesabını nasıl kilitleyeceğini gösteriyorum. e-Devlet arama çubuğuna Ortak veya Yetkili Olunmasına Yönelik Kısıtlama İşlemleri yaz ve Ticaret Bakanlığı hizmetini aç. Yeni Başvuru butonuna tıkla ve Hem Ortak Hem Yetkili Olunmasını Kısıtla seçeneğini onayla. Böylece sen kilidi kaldırmadıkça adına şirket kurulamaz. Ardından Mobil Hat Sorgulama yazarak adına kayıtlı tüm numaraları gör; bilmediğin bir hat varsa hemen operatörüne itiraz et ve BTK üzerinden hat açma kısıtlamasını kontrol et."
+ },
+ {
+  "id": "VID_004",
+  "slug": "004_ozel_hastane_acil_fark_ucreti",
+  "short": "Özel hastanede acil servise girdiğin halde senden binlerce lira muayene veya tahlil fark ücreti aldılarsa, bu parayı geri alabilirsin. Kanuna göre acil hallerde hiçbir özel hastane SGK hastasından tek kuruş ilave ücret talep edemez. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ACİL yaz, hemen göndereyim.",
+  "uzun": "Özel bir hastanenin acil servisine girdiğin halde senden binlerce lira muayene, tahlil ya da görüntüleme farkı aldılarsa, ödediğin bu paranın tamamını devleti arkana alarak geri alabilirsin. İşte gerçek ekranlarla adım adım iade süreci. Önce hastaneden kalem kalem işlemlerin yazdığı detaylı fatura ve ödeme dekontu al. Sonra e-Nabız uygulamasına girip Ziyaretlerim sekmesinden hastane kaydının Acil Polikliniği olarak görünüp görünmediğini kontrol et ve ekran görüntüsü al. Şimdi e-Devlet veya CİMER'e gir; başvuru türünü Şikayet, muhatabı Sosyal Güvenlik Kurumu seç. Sağlık Uygulama Tebliği gereğince acil hal kapsamında ilave ücret alınamayacağını yazıp fatura ile e-Nabız kaydını yükle. SGK incelemesi sonrası hastane paranı iade etmek ve ceza ödemek zorunda kalır."
+ },
+ {
+  "id": "VID_005",
+  "slug": "005_fahis_kira_artisi_yasal_tavan",
+  "short": "Ev sahibin sözleşme yenileme zamanı geldiğinde yasal sınırın çok üzerinde bir kira zammı istiyor ve kabul etmezsen çık diyorsa sakın panik yapma. Kanunen onun istediği rakamı ödemek zorunda değilsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KİRA yaz, hemen göndereyim.",
+  "uzun": "Kira yenileme döneminde ev sahibinin fahiş zam baskısı altında kaldıysan, evden çıkarılma korkusuyla fazla ödeme yapma. Yasal tavanı nasıl hesaplayacağını ve bankadan nasıl hatasız ödeme yapacağını gösteriyorum. Birinci adım: Türkiye İstatistik Kurumu tarafından açıklanan son on iki aylık TÜFE ortalamasını kontrol et; konut kiralarında yasal tavan budur ve beş yılı dolmamış sözleşmelerde ev sahibi bunun üzerinde artış yapamaz. İkinci adım: Ev sahibi kabul etmese bile, kendi kiranı yasal TÜFE oranında artırıp banka hesabına yatır. Üçüncü adım: Havale veya EFT açıklama kısmına mutlaka ilgili ay ve yılın kira bedeli olduğunu yaz. Ev sahibi beş yıl dolmadan seni sadece zam kabul etmedin diye evden çıkaramaz."
+ },
+ {
+  "id": "VID_006",
+  "slug": "006_iade_reddi_kullanici_hatasi",
+  "short": "İnternetten aldığın ürün bozuk çıktı ama satıcı kullanıcı hatası diyerek iadeni reddettiyse, sakın peşini bırakma. İlk altı ay içinde ortaya çıkan arızalarda kanunen haklı olan sensin ve satıcı aksini ispatlamak zorunda. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma HAKEM yaz, hemen göndereyim.",
+  "uzun": "İnternetten aldığın ürün bozuk çıktığında satıcı ya da servis kullanıcı hatası deyip iadeni reddettiyse, aslında kanun ilk altı ayda doğrudan senin yanında. Şimdi o satıcıya paranı yasal faiziyle ödetecek başvuruyu beş dakikada birlikte yapalım. Sipariş faturanı, satıcıyla yazışmalarını ve servis ret raporunu PDF olarak hazırla. e-Devlet'e gir ve Tüketici Hakem Heyeti Başvurusu yazarak TÜBİS sistemini aç. Yeni Başvuru butonuna tıkla ve satıcının faturadaki vergi numarasını gir. Uyuşmazlık konusu kısmından Ayıplı Mal seçeneğini işaretle. Açıklama kutusuna 6502 sayılı kanunun 10'uncu maddesi gereğince ilk altı ayda ortaya çıkan ayıplarda ispat yükünün satıcıya ait olduğunu yaz. Belgelerini yükle ve başvuruyu onayla."
+ },
+ {
+  "id": "VID_007",
+  "slug": "007_hatali_trafik_cezasina_uyap_itiraz",
+  "short": "Haksız yere yediğin trafik veya park cezasına mahkemeye gitmeden, sıfır masrafla telefondan itiraz edebileceğini biliyor muydun? Cezanın tebliğinden itibaren on beş günün var, süresi geçmeden izle. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İTİRAZ yaz, hemen göndereyim.",
+  "uzun": "Haksız olduğunu bildiğin bir trafik ya da park cezasına sadece adliyeye gitmeye üşendiğin için boşuna para ödüyorsan, dur. Hiçbir harç ödemeden ve avukatsız, doğrudan UYAP üzerinden beş dakikada nasıl itiraz edeceğini gösteriyorum. Tarayıcıdan UYAP Vatandaş Portalı'na gir ve e-Devlet şifrenle oturum aç. Sol menüden Dosya İşlemleri başlığına tıkla ve Sulh Ceza Hakimliği Dava Açılış sekmesini seç. İl ve adliye bilgisini cezanın kesildiği yerdeki adliye olarak seç ve dava türünü Trafik İdari Para Cezasına İtiraz işaretle. İtiraz dilekçeni, ceza tutanağını ve varsa hatayı gösteren fotoğrafı PDF olarak yükle. e-İmza veya Mobil İmza ile onayla; yoksa dilekçeni kaydedip adliye ön bürodan ücretsiz teslim et."
+ },
+ {
+  "id": "VID_008",
+  "slug": "008_bos_tahliye_taahhutnamesi_tuzagi",
+  "short": "Ev tutarken sözleşmeyle aynı gün boş bir tahliye taahhütnamesi imzaladıysan ve ev sahibin şimdi üzerine tarih yazıp seni icraya verdiyse her şey bitmiş değil. Yedi gün içinde bunu durdurabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma TAHLİYE yaz, hemen göndereyim.",
+  "uzun": "Kiracıların en çok korktuğu belge olan tahliye taahhütnamesi aslında sanıldığı kadar dokunulmaz değil. Ev sahibinin sonradan tarih doldurup gönderdiği icra emrini yedi gün içinde nasıl durduracağını anlatıyorum. Yargıtay kararlarına göre kira sözleşmesi ile aynı tarihte imzalanan tahliye taahhütnamesi baskı altında alınmış sayılır ve geçersizdir. Ev sahibin bu belgeyle icra takibi başlattıysa, tebligatı aldığın günden itibaren kesinlikle yedi gün içinde icra dairesine yazılı olarak itiraz etmelisin. İtiraz dilekçende tarihin ve imzanın sonradan doldurulduğunu açıkça belirt; bu itiraz icra takibini anında durdurur. Aile konutu olan evde diğer eşin rızası yoksa aile konutu itirazı da yapabilirsin."
+ },
+ {
+  "id": "VID_009",
+  "slug": "009_istifa_hakli_fesih_tazminat",
+  "short": "İşten kendi isteğinle ayrıldığında tazminat hakkının tamamen yandığını sanıyorsan büyük hata yapıyorsun. Maaşın geç yatıyor veya sigortan gerçek maaştan yatmıyorsa istifa edip kıdem tazminatını alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma TAZMİNAT yaz, hemen göndereyim.",
+  "uzun": "İşyerinde hakların yeniyor ama tazminatım yanar korkusuyla istifa edemiyorsan bu videoyu sonuna kadar izle. Kanunen haklı fesih sayılan durumları nasıl kanıtlayıp arabulucu üzerinden tazminatını alacağını anlatıyorum. İşten ayrılmadan önce maaş bordrolarını, banka dekontlarını ve e-Devlet üzerinden SGK Tescil ve Hizmet Dökümü belgeni indir. Sigortan asgari ücretten yatıp kalanı elden veriliyorsa veya fazla mesai ödenmiyorsa bu haklı fesih sebebidir. Kesinlikle düz istifa dilekçesi imzalama; notere gidip haklı nedenle derhal fesih ihtarnamesi çek. Ardından arabuluculuk başvurusu yap; anlaşma olmazsa iş mahkemesiyle tüm kıdem tazminatını faiziyle alırsın."
+ },
+ {
+  "id": "VID_010",
+  "slug": "010_maas_ve_emekli_haczi_siniri",
+  "short": "İcra borcun yüzünden banka hesabındaki maaşının tamamına bloke konulduysa veya emekli maaşın kesildiyse bu tamamen hukuksuz. Emekli maaşına hiç dokunulamaz, normal maaşın da en fazla dörtte biri kesilebilir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma HACİZ yaz, hemen göndereyim.",
+  "uzun": "Borçların yüzünden banka hesabına bloke geldiğinde nefes alacak paran bile kalmadıysa kanundaki iki kesin koruma kuralını bilmen şart. Haksız maaş ve emekli blokesini nasıl kaldıracağını anlatıyorum. İcra ve İflas Kanunu'na göre nafaka borcu hariç normal maaşının en fazla dörtte birine haciz konulabilir. SGK kanununa göre ise nafaka ve SGK prim borcu dışında emekli maaşına kendi rızan olmadan kesinlikle haciz konulamaz. Bloke konulduğu anda maaş bordronu veya SGK emekli maaş yazısını al. UYAP Vatandaş Portalı üzerinden veya İcra Hukuk Mahkemesi'ne Haczedilmezlik Şikayeti dilekçesi vererek blokeyi derhal kaldır."
+ },
+ {
+  "id": "VID_011",
+  "slug": "011_gizli_dava_icra_ve_uets_kontrolu",
+  "short": "Eski adresine giden bir kağıt yüzünden şu an senin haberin bile olmadan hakkında icra takibi veya dava açılmış olabilir. İtiraz süreni kaçırmadan maaşına bloke gelmemesi için bu üç ekranı hemen kontrol et. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SORGULA yaz, hemen göndereyim.",
+  "uzun": "Adres değişikliğini bildirmediğin için eline ulaşmayan tek bir tebligat, itiraz hakkını kaybetmene ve hesabına aniden haciz gelmesine yol açabilir. Her vatandaşın ayda bir kontrol etmesi gereken üç resmi ekranı gösteriyorum. Birinci ekran: e-Devlet arama çubuğuna Dava Dosyası Sorgulama yaz ve UYAP kaydında adına açılmış tüm davaları gör. İkinci ekran: İcra Dosyası Sorgulama yazarak aktif icra takiplerini kontrol et. Üçüncü ekran: Ulusal Elektronik Tebligat Sistemi yani UETS yazıp PTT üzerinden ücretsiz elektronik tebligat hesabını aktif et; böylece tebligatlar kağıt yerine anında telefonuna SMS olarak düşer."
+ },
+ {
+  "id": "VID_012",
+  "slug": "012_kredi_hayat_sigortasi_iptali",
+  "short": "Kredi çekerken bankanın otomatik kestiği binlerce liralık hayat sigortasını iptal edip paranı nakit olarak geri alabileceğini biliyor muydun? Üstelik kredin de faizin de kesinlikle bozulmuyor. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma POLİÇE yaz, hemen göndereyim.",
+  "uzun": "İhtiyaç veya taşıt kredisi çekerken bankalar çoğu zaman hayat sigortasını zorunlu gibi gösterip yüksek primler kesiyor. Oysa bu sigortayı iptal ettirip parayı hesabına geri çekmek tamamen yasal hakkın. Tüketici kredilerinde sigorta yaptırmak müşterinin açık rızasına bağlıdır. Krediyi çektikten hemen sonra bankanın mobil uygulamasından Sigortalarım menüsüne gir veya müşteri hizmetlerini arayarak hayat sigortası poliçesinin iptalini ve prim iadesini talep et. Banka reddederse, e-Devlet üzerinden BDDK Şikayet Portalı e-Şikayet ekranına poliçe numaranla başvur. Kullanılmayan döneme ait tüm prim tutarı vadesiz hesabına yatar."
+ },
+ {
+  "id": "VID_013",
+  "slug": "013_depozito_ve_boya_kesintisi",
+  "short": "Evden çıkarken duvarlar biraz kirlendi ya da parke eskidi diye ev sahibin depozitona el koyuyorsa bu parayı ona bırakma. Normal kullanımdan doğan yıpranmayı kiracı ödemez. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma DEPOZİTO yaz, hemen göndereyim.",
+  "uzun": "Kiracılar evden çıkarken en çok depozito konusunda mağdur ediliyor. Ev sahibinin haksız boya ve tadilat kesintilerini nasıl engelleyip depozitonu kuruşu kuruşuna geri alacağını adım adım gösteriyorum. Evi boşaltıp temizledikten sonra tüm odaların ve kombinin detaylı videosunu çek. Anahtarı teslim ederken mutlaka yazılı bir Anahtar Teslim Tutanağı düzenle ve imzalat. Kanuna göre olağan kullanım yıpranmasından kiracı sorumlu tutulamaz. Ev sahibi üç ay içinde haklı bir dava açmaz ve paranı iade etmezse, icra dairesi üzerinden ilamsız icra takibi başlatarak depozitonu yasal faiziyle geri alabilirsin."
+ },
+ {
+  "id": "VID_014",
+  "slug": "014_izinsiz_kart_cekimi_chargeback",
+  "short": "Kartından bilmediğin bir yerden para çekildiyse ya da sahte bir siteden alışveriş yapıp dolandırıldıysan paran gitti sanma. Bankaların gizlediği ters ibraz hakkıyla paranı geri alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma TERSİBRAZ yaz, hemen göndereyim.",
+  "uzun": "Kredi veya banka kartından izinsiz işlem yapıldığında ya da ödeme yaptığın firma ürünü göndermeden ortadan kaybolduğunda, paranı geri almanın uluslararası kuralı olan chargeback sürecini adım adım anlatıyorum. Vakit kaybetmeden bankanı arayıp kartını kapattır ve şüpheli işlem bildirimi yap. İşlem üzerinden yüz yirmi gün geçmeden bankanın şubesine veya kurumsal e-postasına Harcama İtirazı yani Chargeback Formu doldurarak gönder. Formda şifreli 3D Secure onayı vermediğini veya malın teslim edilmediğini yazıp yazışmaları ekle. Banka savsaklarsa BDDK e-Şikayet ekranına başvur."
+ },
+ {
+  "id": "VID_015",
+  "slug": "015_ai_ses_klonlama_dolandiriciligi",
+  "short": "Sosyal medyada paylaştığın üç saniyelik bir videodaki sesini kopyalayıp, annenizi veya eşinizi senin sesinle ağlayarak arayıp acil para isteyebilirler. Bu yeni nesil dolandırıcılıktan korunmanın tek yolu iki dakikalık bir kural. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SESKLON yaz, hemen göndereyim.",
+  "uzun": "Yapay zeka ses klonlama araçları artık birkaç saniyelik ses kaydından bir insanın sesini birebir taklit edebiliyor. Yakınlarının senin sesinle kandırılmaması için kurman gereken güvenlik kalkanını anlatıyorum. Dolandırıcılar panik anında sorgulamadan para göndermeni ister. Bunu bozmanın birinci kuralı: Ailenle aranda sadece sizin bildiğiniz bir Acil Güvenlik Parolası belirle; ses ne kadar gerçekçi olursa olsun parolayı bilmiyorsa o kişi sahtedir. İkinci kural: Telefonda para isteyen yakınını mutlaka mevcut çağrıyı kapatıp kendi rehberinden geri ara veya görüntülü arama iste."
+ },
+ {
+  "id": "VID_016",
+  "slug": "016_sgk_cikis_kodu_itirazi",
+  "short": "İşten çıkarıldın ama işsizlik maaşına başvurduğunda ret aldıysan sebebi patronunun girdiği tek bir rakam olabilir. İşveren tazminat ödememek için çıkış kodunu istifa göstermiş olabilir, hemen kontrol et. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ÇIKIŞ yaz, hemen göndereyim.",
+  "uzun": "İşten çıkarıldıktan sonra hem tazminatını hem de işsizlik maaşını tek bir kod yüzünden kaybedebilirsin. İşverenlerin sıkça yaptığı çıkış kodu hilesini e-Devlet'ten nasıl yakalayıp düzelteceğini adım adım gösteriyorum. e-Devlet'e gir ve arama çubuğuna SGK İşten Ayrılış Bildirgesi yazıp en son çıkış kaydını aç. İşten Ayrılış Nedeni satırındaki koda bak; işveren seni çıkardığı halde Kod 03 İstifa girdiyse işsizlik maaşın yanar. Hemen e-Devlet üzerinden İŞKUR İşsizlik Ödeneği Başvurusu yaparken durumu belirt ve elindeki işten çıkarma yazısıyla en yakın SGK İl Müdürlüğü'ne yazılı düzeltme dilekçesi ver."
+ },
+ {
+  "id": "VID_017",
+  "slug": "017_abonelik_ve_cayma_bedeli_tuzagi",
+  "short": "İnternet veya telefon aboneliğini iptal etmek istediğinde karşına binlerce lira cayma bedeli çıkarıyorlarsa dur. Bir yıldan uzun taahhütlerde veya hız sözü tutulmadığında tek kuruş ödemeden çıkabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma CAYMA yaz, hemen göndereyim.",
+  "uzun": "Aboneliğini kapatmak istediğinde operatörün sana fahiş bir cayma bedeli faturası çıkardıysa sakın hemen ödeme. Yasanın sana verdiği ücretsiz fesih hakkını kullanarak bu borcu nasıl sildireceğini adım adım gösteriyorum. Önce e-Devlet'e gir ve Abonelik Fesih Başvurusu hizmetini açarak operatörüne resmi iptal talebini ilet. Hız düşüklüğü varsa Speedtest ekran görüntüsü al. Ardından BTK Tüketici Şikayet Sistemi'ne e-Devlet ile giriş yapıp haksız cayma bedeli faturasını ekleyerek şikayet aç. Ödeme yaptıysan aynı faturayla e-Devlet TÜBİS üzerinden para iadesi talep et."
+ },
+ {
+  "id": "VID_018",
+  "slug": "018_kasa_fiyat_etiket_farki",
+  "short": "Markette kasaya geldin ve raftaki etiketten daha yüksek bir fiyat çıktıysa, kasiyer sistem böyle diyor diye o parayı ödemek zorunda değilsin. Kanuna göre senin lehine olan düşük fiyat geçerlidir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ETİKET yaz, hemen göndereyim.",
+  "uzun": "Alışverişte raf etiketi ile kasa fiyatı tutmadığında çoğu kişi tartışmamak için fazla parayı ödeyip geçiyor. Oysa hem kasada düşük fiyattan alma hakkın var hem de bunu reddeden işletmeye ağır idari ceza kestirebilirsin. Kasadan ayrılmadan raftaki etiketin fotoğrafını çek ve kasiyerden etiketteki fiyattan işlem yapmasını talep et. İşletme reddederse fişini mutlaka al. Telefonundan HFA Bildirimi mobil uygulamasını veya e-Devlet üzerinden Ticaret Bakanlığı Tüketici Şikayet ekranını aç. İşletmenin fişteki vergi numarasını, etiket fotoğrafını ve fişi yükle; aradaki farkı almak için e-Devlet TÜBİS'e başvur."
+ },
+ {
+  "id": "VID_019",
+  "slug": "019_ucus_rotari_iptal_tazminati",
+  "short": "Uçağın üç saatten fazla geciktiyse veya fazla bilet satıldığı için uçağa alınmadıysan sadece sandviç ve suyla yetinme. Havayolu sana yüz eurodan altı yüz euroya kadar nakit tazminat ödemek zorunda. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma UÇUŞ yaz, hemen göndereyim.",
+  "uzun": "Uçuşun iptal olduğunda ya da saatlerce havalimanında bekletildiğinde havayollarının çoğu yolculara nakit tazminat hakkını söylemez. SHGM yönetmeliğine göre paranı nasıl alacağını adım adım gösteriyorum. Biniş kartını ve rötar mesajlarını sakla. İç hatlarda yüz euro, uluslararası uçuşlarda mesafeye göre iki yüz elli ile altı yüz euro arası tazminat hakkın vardır. Önce havayolunun Yolcu İlişkileri formundan SHY-Yolcu Yönetmeliği kapsamında tazminat talebi aç. Şirket otuz gün içinde reddederse, e-Devlet üzerinden SHGM Yolcu Hakları Başvurusu ekranına biletinle şikayet oluştur."
+ },
+ {
+  "id": "VID_020",
+  "slug": "020_dolandiricilik_sonrasi_ilk_24_saat",
+  "short": "Sahte bir kargo ya da banka SMS'ine tıklayıp kart bilgilerini veya e-Devlet şifreni girdiysen her saniye çok kritik. Paniğe kapılmadan ilk on dakikada yapman gereken dört hamleyi hemen uygula. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İLK24 yaz, hemen göndereyim.",
+  "uzun": "Dolandırıcıların sahte linkine tıkladın, telefonuna bir APK dosyası indi ya da kart bilgilerini kaptırdıysan, zararını en aza indirmek için ilk yirmi dört saatte atman gereken resmi adımları sıralıyorum. Birinci dakika: Bankanı ara ve tüm kartlarınla internet bankacılığını geçici olarak kapattır. İkinci dakika: Bilinmeyen bir APK indirdiysen Wi-Fi ve mobil veriyi hemen kes. Üçüncü adım: Farklı ve temiz bir cihazdan e-Devlet, e-posta ve sosyal medya şifrelerini değiştirip iki faktörlü doğrulamayı aç. Dördüncü adım: Dekontları ve sahte link ekran görüntüsünü alıp vakit kaybetmeden Cumhuriyet Savcılığı'na veya Siber Suçlar'a başvur."
+ },
+ {
+  "id": "VID_021",
+  "slug": "021_kargo_hasar_ve_gecikme",
+  "short": "Kargon kırık veya eksik geldiğinde kurye kapıdan kaçtı diye paran yandı sanıyorsan yanılıyorsun. Tutanak tutturamamış olsan bile kargo firması veya satıcıdan paranı geri almanın net bir yolu var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KARGO yaz, hemen göndereyim.",
+  "uzun": "Kargon kırık geldiğinde kurye bekleyemem deyip gittiyse paranı kurtarmak için geç kalmış değilsin. Şimdi satıcı ve kargo firmasına karşı resmi adımları ekran başında atıyoruz. Paketi açarken çektiğin fotoğraf ve videoları, kargo takip numaranı ve sipariş faturanı kaydet. Önce platform üzerinden hasarlı ürün iadesi aç; mal teslim edilene kadar sorumluluk satıcıdadır. Satıcı reddederse e-Devlet üzerinden TÜBİS ekranına girip satıcının vergi numarasıyla başvur. Ayrıca kargo ihmali için BTK Tüketici Şikayet Sistemi'nden kayıt oluştur."
+ },
+ {
+  "id": "VID_022",
+  "slug": "022_izinsiz_sms_ve_arama_sikayeti_iys",
+  "short": "Günde on kere tanımadığın şirketlerden reklam SMS'i ve arama geliyorsa tek tek engellemekle uğraşma. e-Devlet içindeki tek bir sayfadan tüm izinleri topluca kapatıp izinsiz yazanlara ceza kestirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İYS yaz, hemen göndereyim.",
+  "uzun": "Telefonun sürekli reklam mesajları ve bilmediğin numaraların satış aramalarıyla çalıyorsa, verilerini izinsiz kullanan firmaları e-Devlet üzerinden nasıl tek seferde kapatıp şikayet edeceğini gösteriyorum. e-Devlet'e gir ve Ticari Elektronik İleti Yönetim Sistemi yani İYS yaz. Telefon numaranla doğrulama yaparak şu an sana mesaj atma izni olan tüm firmaların listesini gör ve istemediklerini Tek Tıkla Reddet. İznin olmadığı halde hala SMS geliyorsa ekran görüntüsü alıp e-Devlet üzerinden Ticaret Bakanlığı Ticari Elektronik İleti Şikayet Sistemi'ne yükle ve KVKK Şikayet Portalı'na bildir."
+ },
+ {
+  "id": "VID_023",
+  "slug": "023_fahis_site_aidati_itirazi",
+  "short": "Site yönetiminin çıkardığı aidat neredeyse kirana yaklaştıysa dikkat. Kiracılar apartmanın demirbaş tadilat masraflarını ödemek zorunda değildir ve usulsüz aidat zamları mahkemeyle iptal edilebilir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma AİDAT yaz, hemen göndereyim.",
+  "uzun": "Son dönemde kiralarla yarışan site aidatları yüzünden bütçen sarsıldıysa, yönetimlerin yaptığı iki büyük hukuksuzluğu bilmen gerekiyor. Fahiş aidatlara nasıl itiraz edeceğini anlatıyorum. Asansör yenileme, çatı onarımı, dış cephe mantolama gibi demirbaş giderlerinden kanunen kiracı değil ev sahibi sorumludur; kiracı ödediyse kiradan düşebilir. Ayrıca yönetim kat malikleri genel kurulu kararı olmadan zam yapamaz. Haksız aidat kararına toplantıya katılıp ret oyu verenler bir ay içinde Sulh Hukuk Mahkemesi'nde kararın iptali davası açabilir."
+ },
+ {
+  "id": "VID_024",
+  "slug": "024_elden_maas_ve_eksik_sigorta",
+  "short": "Patronun maaşının bir kısmını bankaya, kalanını zarfla elden veriyorsa sadece vergiden kaçmıyor, senin gelecekteki emekli maaşını ve kıdem tazminatını da yarı yarıya düşürüyor. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SİGORTA yaz, hemen göndereyim.",
+  "uzun": "Bankaya asgari ücret yatıp kalan maaşı elden almak işten çıkarken tazminatını ve emekli olurken maaşını doğrudan yarıya indirir. e-Devlet'ten primini nasıl kontrol edip bu durumu düzelteceğini gösteriyorum. e-Devlet'te SGK Tescil ve Hizmet Dökümü ekranını aç ve Prime Esas Kazanç sütununa bak; gerçek maaşın yerine asgari ücret yazıyorsa primin eksik yatıyor demektir. Gerçek maaşını gösteren iş ilanı, WhatsApp yazışmaları ve kredi maaş yazılarını sakla. e-Devlet üzerinden CİMER veya ALO 170'e ihbar kaydı oluştur ya da Hizmet Tespit Davası açarak primlerinin geriye dönük düzeltilmesini sağla."
+ },
+ {
+  "id": "VID_025",
+  "slug": "025_trafik_kazasi_arac_deger_kaybi",
+  "short": "Aracına biri çarptı, kusur karşı taraftaydı ve sigorta aracını tamir ettiyse işin orada bitmiyor. Aracın hasar kaydı aldığı için düşen ikinci el değerini sigortadan nakit olarak ayrıca alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma DEĞERKAYBI yaz, hemen göndereyim.",
+  "uzun": "Trafik kazasında kusursuz veya az kusurlu tarafsan, aracın tamir edilse bile satış fiyatı düşer. Aracı satmadan bile karşı tarafın trafik sigortasından değer kaybı tazminatını nasıl alacağını anlatıyorum. Kaza tarihinden itibaren iki yıl içinde başvuru hakkın var. Kaza tespit tutanağını, eksper raporunu ve tamir faturasını topla. Önce karşı aracın trafik sigortası şirketine yazılı değer kaybı başvurusu ve IBAN bilgini gönder. Sigorta on beş gün içinde ödeme yapmaz veya düşük teklif ederse Sigorta Tahkim Komisyonu'na online başvuru yap."
+ },
+ {
+  "id": "VID_026",
+  "slug": "026_yanlis_eft_fast_geri_alma",
+  "short": "Yanlışlıkla tanımadığın bir IBAN'a para gönderdin ve karşı taraf telefonu açmıyorsa paran yanmadı. Bankadan tek bir talep açıp karşı tarafın hesabına bloke ve ihtar gönderebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma YANLIŞEFT yaz, hemen göndereyim.",
+  "uzun": "Aceleyle para gönderirken yanlış kişiye EFT veya FAST yaptıysan ve alıcı paranı geri yollamıyorsa panikleme. Sebepsiz zenginleşme maddesiyle paranı geri almanın adımlarını gösteriyorum. İlk saniyede bankanın müşteri hizmetlerini ara ve dekont numaranı vererek Hatalı Transfer İade Talebi oluştur. Bankan karşı bankaya ulaşır ve alıcıdan iade onayı ister. Alıcı parayı geri göndermezse hukuken sebepsiz zenginleşmiş sayılır; dekontunla icra dairesine gidip ilamsız icra takibi başlatarak paranı yasal faiziyle alırsın."
+ },
+ {
+  "id": "VID_027",
+  "slug": "027_borclu_mirasin_reddi_3_ay_kurali",
+  "short": "Bir yakının vefat ettiğinde geride evden arabadan çok banka ve vergi borcu kaldıysa dikkat. Ölüm tarihinden itibaren üç ay içinde reddi miras yapmazsan tüm o borçları ömür boyu sen ödemek zorunda kalırsın. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma REDDİMİRAS yaz, hemen göndereyim.",
+  "uzun": "Vefat eden bir yakınının borçlarını üstlenmemek için kanunun tanıdığı üç aylık kritik süreyi sakın kaçırma. Reddi miras başvurusunu nasıl yapacağını ve üç ay geçtiyse bile borçtan nasıl kurtulacağını anlatıyorum. Vefat tarihinden itibaren kesinlikle üç ay içinde Sulh Hukuk Mahkemesi'ne yazılı Mirasın Reddi dilekçesi ver. Bu üç ay içinde vefat edenin aracını kullanmak veya bankadaki parasını çekmek mirası kabul etmek sayılır ve hakkını yakar. Üç ay geçtiyse bile borç maldan fazlaysa Terekenin Borca Batık Olduğunun Tespiti davası açabilirsin."
+ },
+ {
+  "id": "VID_028",
+  "slug": "028_polis_bekci_kimlik_ve_arama_sinirlari",
+  "short": "Sokakta polis veya bekçi seni durdurduğunda kimliğini göstermek zorundasın ama hakim kararı veya yazılı arama emri olmadan kimse senin telefonunun şifresini açtırıp galerine bakamaz. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ARAMAKURALI yaz, hemen göndereyim.",
+  "uzun": "Günlük hayatta sokakta veya araçta çevirmeye girdiğinde görevlilerin hangi işlemleri yapmaya yetkisi olduğunu, hangi durumlarda yazılı arama kararı gerektiğini bilmek seni korur. İşte kanuni sınırlar. Polis ve bekçi makul bir sebep varsa kimlik sorabilir ve dıştan elle kaba üst kontrolü yapabilir. Ancak aracın torpidosunu veya çantanın içini detaylı aramak için yazılı Önleme Araması Kararı ya da savcı/hakim kararı bulunmalıdır ve kararın gösterilmesini isteyebilirsin. Cep telefonun haberleşme gizliliği kapsamındadır; hakim kararı olmadan telefon şifreni vermek zorunda değilsin."
+ },
+ {
+  "id": "VID_029",
+  "slug": "029_ozel_hastane_yuzde_200_fark_siniri",
+  "short": "SGK anlaşmalı bir özel hastaneye gittiğinde doktor muayenesi veya ameliyat için senden ne kadar isterlerse ödemek zorunda değilsin. Devletin koyduğu net bir tavan var ve aşılırsa fazlasını geri alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma FARK yaz, hemen göndereyim.",
+  "uzun": "Özel hastanelerde muayene veya işlem sonrası karşına çıkan yüksek faturaların içinde yasal sınırı aşan kalemler olabilir. SGK'nın belirlediği tavan kuralını nasıl kontrol edip fazla ödediğin parayı geri alacağını anlatıyorum. SGK ile anlaşmalı özel hastaneler, acil ve kanser tedavisi gibi ücretsiz alanlar dışında kalan işlemlerde SGK'nın ödediği tutarın en fazla yüzde iki yüzü kadar ilave ücret alabilir. Hastaneden mutlaka SGK Medula Dökümü ve detaylı kalem faturası iste. Sınırı aşan tutar kesildiyse faturanla e-Devlet üzerinden SGK'ya veya CİMER'e iade talebi aç."
+ },
+ {
+  "id": "VID_030",
+  "slug": "030_ibraname_tuzagi_ve_mobbing",
+  "short": "İşten ayrılırken önüne tüm alacaklarımı eksiksiz aldım yazan bir kağıt koyup bunu imzalamazsan paranı vermeyiz diyorlarsa sakın tuzağa düşme. Kanuna göre o kağıdın geçerli olması için çok net bir şart var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İBRANAME yaz, hemen göndereyim.",
+  "uzun": "İşverenlerin işten çıkışta en sık kullandığı tuzakların başında ibraname imzalatmak geliyor. Hangi şartlarda imzaladığın ibranamenin geçersiz sayıldığını ve mobbing yaşıyorsan kendini nasıl koruyacağını anlatıyorum. Türk Borçlar Kanunu'na göre ibranamenin geçerli sayılması için iş sözleşmesinin sona ermesinden itibaren en az bir ay geçmiş olması ve tüm ödemelerin eksiksiz banka üzerinden yapılması şarttır. İşten çıktığın gün önüne konulan kağıt geçersizdir; imzalamak zorunda kalırsan üzerine Fazlaya ilişkin tüm haklarım saklıdır şerhini düş. Mobbing varsa tarih saatli olay günlüğü ve e-postaları arşivle."
+ },
+ {
+  "id": "VID_031",
+  "slug": "031_edevlet_sosyal_yardim_basvurusu",
+  "short": "Doğalgaz, elektrik veya aile destek yardımlarına başvurmak için artık vakıf kapılarında sıra beklemene gerek yok. e-Devlet içindeki tek bir form üzerinden tüm şartları sağlayan desteklere beş dakikada başvurabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma DESTEK yaz, hemen göndereyim.",
+  "uzun": "Devletin sunduğu enerji, barınma, doğum ve gelir bazlı sosyal desteklerden yararlanıp yararlanamayacağını e-Devlet üzerinden nasıl kontrol edip tek tıkla başvuru yapacağını gerçek ekranlarla gösteriyorum. e-Devlet'e giriş yap ve Sosyal Yardım Başvuru Hizmeti yazıp Aile ve Sosyal Hizmetler Bakanlığı ekranını aç. Yeni Başvuru butonuna tıkla ve hane gelirin ile fatura abone numaralarını gir. Sonucu Sosyal Yardım Bilgileri Sorgulama ekranından takip edebilirsin; onaylanan ödemeler PTT veya IBAN'ına yatar."
+ },
+ {
+  "id": "VID_032",
+  "slug": "032_fazla_mesai_ve_resmi_tatil",
+  "short": "Haftada kırk beş saatin üzerinde çalışıyor ya da resmi tatillerde işe gidip tek kuruş ekstra para almıyorsan hakkın yeniyor. Üstelik bunu ses kaydı almadan, tamamen yasal dijital izlerle ispatlayabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma MESAİ yaz, hemen göndereyim.",
+  "uzun": "Resmi tatillerde çalıştırılıp çift yevmiye alamayan veya her gün fazladan mesai yapıp karşılığını göremeyen çalışanlar için en net kanıt toplama ve başvuru yöntemini gerçek ekranlarla anlatıyorum. Haftalık kırk beş saati aşan her saat yüzde elli zamlı, resmi tatillerdeki her gün ise ekstra bir tam yevmiye ödenmek zorundadır. İşyeri giriş çıkış kayıtlarını, mesai dışı e-posta saatlerini ve WhatsApp görev mesajlarını arşivle. Ardından e-Devlet üzerinden ALO 170 veya CİMER'e girip müfettiş incelemesi talep et; beş yıla kadar geriye dönük alacaklarını arabuluculukta iste."
+ },
+ {
+  "id": "VID_033",
+  "slug": "033_hatali_vergi_ve_harclar_iadesi",
+  "short": "İptal ettiğin bir işlemin harcını ödediysen ya da sistem hatasından fazla vergi kesildiyse o para devlette kalmıyor. Vergi dairesine adımını atmadan Dijital Vergi Dairesi'nden iadeni isteyebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma VERGİ yaz, hemen göndereyim.",
+  "uzun": "Kullanmadığın pasaport veya ehliyet harcını, iptal olan dava harcını ya da hatalı çıkan vergiyi şubeye gitmeden oturduğun yerden nasıl geri alacağını Dijital Vergi Dairesi ekranında adım adım gösteriyorum. dijital.gib.gov.tr adresine gir ve e-Devlet şifrenle oturum aç. Sol menüden İşlem Başlat başlığına tıkla ve İade Talepleri sekmesini aç. Harç ve Değerli Kağıt Bedeli İade Talebi veya Fazla Ödenen Vergi İadesi dilekçesini seç. Makbuz seri numaranı ve kendi adına kayıtlı IBAN'ını yazıp onayla; tutar doğrudan hesabına yatar."
+ },
+ {
+  "id": "VID_034",
+  "slug": "034_rent_a_car_senet_ve_depozito_tuzagi",
+  "short": "Araç kiraladığında aracı teslim ederken eski bir çiziği sana yıkıp depozitona el koymalarını istemiyorsan, anahtarı almadan önce bu otuz saniyelik çekimi mutlaka yapmalısın. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KİRALAMA yaz, hemen göndereyim.",
+  "uzun": "Rent a car firmalarından araç kiralarken yaşanan en büyük üç sorun: boş senet, eski hasarın kiracıya yıkılması ve iade edilmeyen depozito. Kendini yüz de yüz koruyacağın protokolü gösteriyorum. Kesinlikle boş senet imzalama; provizyon sadece kredi kartı üzerinden alınmalıdır. Aracı teslim alırken ve iade ederken dört bir yanını, jantları ve kilometreyi kesintisiz videoya çek, eski çizikleri teslim formuna işlet. Firma depozitoyu iade etmezse bu videoyla hem bankana Chargeback başlat hem e-Devlet TÜBİS'e başvur."
+ },
+ {
+  "id": "VID_035",
+  "slug": "035_emeklilik_prim_gun_ve_hizmet_birlestirme",
+  "short": "Geçmişte hem sigortalı hem Bağ-Kur'lu çalıştıysan ve prim günlerin dağınık duruyorsa emekli olacağın gün sürprizle karşılaşabilirsin. Tüm çalışma geçmişini tek ekranda görüp birleştirmenin yolu iki dakika sürüyor. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma EMEKLİLİK yaz, hemen göndereyim.",
+  "uzun": "Emeklilik dilekçesi vermeyi beklerken prim günlerin farklı kurumlarda kaldığı için aylarca beklemek istemiyorsan, e-Devlet üzerinden hizmet dökümünü kontrol edip birleştirme başvurusunu şimdiden yapmalısın. e-Devlet'e gir ve Çalışma Hayatım yazarak tüm 4A, 4B ve 4C prim günlerini tek ekranda incele. Görünmeyen çalışmaların varsa arama çubuğuna SGK Hizmet Birleştirme yaz. Ayrıca SGK Emeklilik Aylığı Hesaplama ekranından ne zaman emekli olacağını gör ve eksik günler için il müdürlüğüne dilekçe ilet."
+ },
+ {
+  "id": "VID_036",
+  "slug": "036_kanit_toplama_sanati_ekran_goruntusu",
+  "short": "Haklı olduğun bir konuda sadece ekran görüntüsü alıp mesajları sildiysen veya karşı taraf mesajı sonradan herkesten sildiyse mahkemede elin boş kalabilir. Kanıtı silinmez hale getirmenin tek resmi yolu var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KANIT yaz, hemen göndereyim.",
+  "uzun": "Sosyal medyada hakarete uğradığında, WhatsApp yazışmalarına güvendiğinde ya da ses kaydı almayı düşündüğünde mahkemede geçerli olacak doğru kanıt toplama kurallarını bilmen şart. Ekran görüntüsünde mutlaka karşı tarafın numarası veya kullanıcı adı ile tarih saat görünmelidir. Silinme riskine karşı Türkiye Noterler Birliği e-Tespit sistemine girip içeriği resmi zaman damgasıyla tespit ettirebilirsin. Ses kaydı almak kural olarak suçtur; ancak sana karşı o anda ani bir suç işleniyorsa ve başka kanıt imkanın yoksa alınan kayıt hukuka uygun delil sayılır."
+ },
+ {
+  "id": "VID_037",
+  "slug": "037_komsu_gurultu_ve_kamera_sinirlari",
+  "short": "Komşun kapısının önüne senin kapını ve evinin içini doğrudan gören bir güvenlik kamerası koyduysa bunu hemen söktürebilirsin. Ortak alanı bile çekse özel hayatına bakan açı yasaktır. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KOMŞU yaz, hemen göndereyim.",
+  "uzun": "Apartmanda gece geç saatlere kadar süren gürültü ya da doğrudan senin kapını izleyen komşu kamerası yüzünden huzurun kalmadıysa, kavgaya girmeden tamamen yasal iki hamleyle bu sorunu nasıl çözeceğini anlatıyorum. Gürültü için gece saatlerinde polis veya zabıtayı çağırarak tespit tutanağı tuttur; Kabahatler Kanunu gereğince idari para cezası kesilir. Komşunun kamerası senin kapını veya balkonunu görüyorsa fotoğrafını çekip önce apartman yönetimine yazılı ihtar ver, kaldırmazsa e-Devlet üzerinden KVKK Şikayet Portalı'na ve Sulh Hukuk Mahkemesi'ne başvur."
+ },
+ {
+  "id": "VID_038",
+  "slug": "038_ozel_okul_ve_kres_iptal_iadesi",
+  "short": "Çocuğunu özel okula veya kreşe yazdırdın ama kayıt sildirmek istediğinde okul yüzde elli keseriz diyorsa bu tamamen yönetmeliğe aykırı. En fazla yüzde on kesebilirler. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma OKUL yaz, hemen göndereyim.",
+  "uzun": "Özel okul, kreş veya kurs kayıtlarını iptal etmek isteyen velilerin en çok mağdur edildiği konu fahiş kesintilerdir. MEB yönetmeliğine göre alabileceğin gerçek iade tutarını anlatıyorum. MEB Özel Öğretim Kurumları Yönetmeliği'ne göre okul başlamadan veya haklı sebeple ayrılmalarda kurum yıllık ücretin en fazla yüzde onunu kesebilir; kalan yüzde doksanı iade etmek zorundadır. Okula yazılı kayıt silme dilekçesi ver ve alındı belgesi al. Ödeme yapmazsa e-Devlet TÜBİS veya tüketici mahkemesi üzerinden paranı faiziyle al."
+ },
+ {
+  "id": "VID_039",
+  "slug": "039_genc_ve_kadin_girisimci_vergiden_muafiyet",
+  "short": "Yirmi dokuz yaşın altındaysan ve ilk kez kendi işini kuruyorsan devlet bir yıl boyunca Bağ-Kur primini ödüyor ve kazancının belirli bir kısmından hiç gelir vergisi almıyor. Başvuru sadece tek bir belgeye bakıyor. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma GİRİŞİMCİ yaz, hemen göndereyim.",
+  "uzun": "Kendi işini kurmak isteyen gençlerin veya evden el emeği ürün satacak kişilerin vergi yükünden korkmasına gerek yok. Dijital Vergi Dairesi üzerinden genç girişimci istisnası ve esnaf muafiyet belgesinin nasıl alınacağını gösteriyorum. On sekiz yirmi dokuz yaş arasındaysan ve ilk kez şahıs işletmesi açıyorsan Dijital Vergi Dairesi'nden Genç Girişimci Kazanç İstisnası Belgesi alıp SGK'ya ver; bir yıl Bağ-Kur primini devlet öder. Evden el işi veya küçük ürün satacaksan şirket kurmadan Dijital Vergi Dairesi'nden Esnaf Vergi Muafiyeti Belgesi alarak düşük stopajla yasal satış yapabilirsin."
+ },
+ {
+  "id": "VID_040",
+  "slug": "040_sosyal_medya_calinma_ve_santaj",
+  "short": "Instagram veya WhatsApp hesabın çalınıp arkadaşlarından para isteniyorsa ya da biri seni görüntünle tehdit edip para talep ediyorsa sakın tek kuruş gönderme. Para gönderdiğinde durmazlar, tek çözüm bu iki resmi hamle. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma HESAP yaz, hemen göndereyim.",
+  "uzun": "Sosyal medya hesabın ele geçirildiğinde veya dijital bir şantaja maruz kaldığında panikle yanlış karar vermek durumu büyütür. Hem hesabını koruyacak hem karşı tarafı yakalatacak resmi yolu anlatıyorum. Hiçbir şekilde ödeme yapma ve pazarlığa girme. Yakın çevrene diğer kanallardan haber ver, ardından platformun kimlik doğrulamalı hesap kurtarma formunu doldur. Yazışmaları ve profil linkini ekran görüntüsüyle kaydedip Cumhuriyet Savcılığı'na başvur; özel görüntüler için Sulh Ceza Hakimliği'nden ve BTK'dan acil içerik kaldırma kararı aldır."
+ },
+ {
+  "id": "VID_041",
+  "slug": "041_mesafeli_satis_14_gun_cayma_hakki",
+  "short": "İnternetten aldığın ürünün kutusunu açtın diye satıcı iade almam diyorsa kanuna göre haksız. Ürünü kontrol etmek için kutuyu açman cayma hakkını kesinlikle ortadan kaldırmaz. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma CAYMA14 yaz, hemen göndereyim.",
+  "uzun": "Online alışverişte en çok karşılaşılan tuzak, kutusu açılmış ürünün iadesini reddetmektir. İstisnalar dışındaki tüm ürünlerde on dört günlük koşulsuz iade hakkını nasıl kullanacağını gösteriyorum. Teslim tarihinden itibaren on dört gün içinde platform üzerinden iade talebi aç veya satıcıya yazılı cayma bildirimi gönder. Satıcı kutusu açıldı diye reddederse ekran görüntüsünü ve faturanı alıp e-Devlet TÜBİS sistemine gir. Mesafeli Sözleşmeler Yönetmeliği gereğince olağan gözden geçirme amacıyla kutu açmanın cayma hakkını bozmayacağını belirterek bedel iadesi talep et."
+ },
+ {
+  "id": "VID_042",
+  "slug": "042_siparis_iptali_stok_yok_yalanı",
+  "short": "İndirimden ucuza aldığın ürünün siparişini satıcı stok yok deyip iptal etti, ertesi gün aynı ürünü iki katı fiyata tekrar satışa koyduysa hakkını arama vaktin geldi. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma STOK yaz, hemen göndereyim.",
+  "uzun": "Büyük indirim günlerinde sıkça yapılan stok bitti iptali aslında satıcının zamlı fiyattan satma oyunudur. Siparişin iptal edildiğinde aynı ürünü eski fiyattan nasıl alacağını anlatıyorum. Satıcının ürünü zamlı fiyattan tekrar ilana koyduğunun tarih saatli ekran görüntüsünü ve iptal edilen sipariş faturanı kaydet. e-Devlet TÜBİS ekranına girip Ayıplı Hizmet veya Sözleşmeye Aykırılık üzerinden başvur. Talebinde para iadesi değil, ürünün sipariş verdiğin fiyattan aynen teslimini istediğini özellikle belirt ve satıcıyı Ticaret Bakanlığı Reklam Kurulu'na da şikayet et."
+ },
+ {
+  "id": "VID_043",
+  "slug": "043_ikinci_el_arac_gizli_ayip_ekspertiz",
+  "short": "İkinci el araç aldın, ekspertiz temiz dedi ama bir ay sonra şaside kaynak ya da kilometrede oynama çıktığını öğrendin. Hem satıcıdan hem ekspertizden zararını alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma EKSPERTİZ yaz, hemen göndereyim.",
+  "uzun": "İkinci el otomobil alırken gizlenen ağır kusurlar ve hatalı ekspertiz raporları yüzünden yüz binlerce lira zarar edebilirsin. Satıcıya ve ekspertiz firmasına karşı açabileceğin yasal süreci anlatıyorum. Kusuru öğrendiğin anda vakit kaybetmeden yetkili servisten veya noterden tespit yaptır ve satıcıya noter aracılığıyla ayıp ihbarı gönder. Satıcıyı ve hatalı rapor veren TSE belgeli ekspertiz firmasını birlikte sorumlu tutabilirsin. Eğer kilometre düşürülmüşse bu ayrıca dolandırıcılık suçudur; e-Devlet TÜVTÜRK muayene geçmişi kayıtlarıyla Cumhuriyet Savcılığı'na suç duyurusunda bulunup bedel iadesi veya değer farkı davası aç."
+ },
+ {
+  "id": "VID_044",
+  "slug": "044_erken_kredi_kapama_indirimi",
+  "short": "Çektiğin krediyi vadesinden önce toplu parayla kapatmak istediğinde kalan ayların tüm faizini ödemek zorunda değilsin. Banka erken ödeme indirimi uygulamak zorunda. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ERKENKAPA yaz, hemen göndereyim.",
+  "uzun": "Kredini erken kapatırken bankanın çıkardığı rakam sana yüksek geldiyse, kalan dönemin işlenmemiş faizini ve sigorta iadelerini nasıl hesaplayıp geri alacağını gösteriyorum. Tüketici Kanunu'na göre erken ödemede banka kalan vadelere ait tüm faiz ve komisyonları düşmek zorundadır; konut kredilerinde yalnızca kanuni tavan olan yüzde bir veya yüzde iki erken ödeme tazminatı alabilir, ihtiyaç kredilerinde ise hiç ceza kesemez. Ödeme sonrası bankadan Erken Kapama Hesap Özeti iste ve kalan hayat sigortası prim iadeni de mutlaka talep et; eksik iade varsa BDDK e-Şikayet'e başvur."
+ },
+ {
+  "id": "VID_045",
+  "slug": "045_varlik_sirketi_taciz_ve_zamanasimi",
+  "short": "Eski bir banka borcun yüzünden varlık yönetim şirketi anneni, kardeşini ya da işyerini arayıp borcunu söylüyorsa ağır suç işliyor. Bunu tek bir şikayetle durdurup ceza kestirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma VARLIK yaz, hemen göndereyim.",
+  "uzun": "Borç tahsilatı yaparken yakınlarını arayan, günde onlarca kez tehdit mesajı atan varlık şirketlerine karşı kanunun tanıdığı koruma sınırlarını ve şikayet yolunu anlatıyorum. Kişisel Verileri Koruma Kanunu'na göre borç bilgisi üçüncü kişilere kesinlikle açıklanamaz; ailenin veya işyerinin aranması açıkça ihlaldir. Arama saatini, numarayı ve mesajları kaydedip e-Devlet üzerinden KVKK Şikayet Portalı'na ve BDDK e-Şikayet sistemine bildir. Ayrıca borç on yıl işlem görmediyse zamanaşımına uğramış olabilir; ödeme yapmadan önce UYAP'tan dosya tarihini mutlaka kontrol et."
+ },
+ {
+  "id": "VID_046",
+  "slug": "046_kredi_notu_findeks_duzeltme",
+  "short": "Tüm kredi ve kart borçlarını sıfırladığın halde bankalar hala kredi vermiyorsa, e-Devlet'teki Risk Merkezi raporunda borcun hala açık görünüyor olabilir. Beş dakikada kontrol edip düzelttirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma FİNDEKS yaz, hemen göndereyim.",
+  "uzun": "Borcunu ödeyip kapattığın halde kredi notun yükselmiyorsa banka sistemine kapanış bildirimini geçmemiş olabilir. e-Devlet Risk Merkezi Raporu üzerinden bu hatayı nasıl yakalayıp düzelteceğini gösteriyorum. e-Devlet'e gir ve Türkiye Bankalar Birliği Risk Merkezi Raporu Başvurusu yazarak ayda bir kez ücretsiz olan raporunu indir. Raporda ödediğin halde Gecikmede veya İdari Takipte görünen bir kayıt varsa, elindeki Borcu Yoktur yazısı ve dekontla ilgili bankaya yazılı düzeltme başvurusu yap. Banka beş iş günü içinde düzeltmezse TBB Bireysel Müşteri Hakem Heyeti'ne ve BDDK'ya başvurarak kaydı sildir."
+ },
+ {
+  "id": "VID_047",
+  "slug": "047_yillik_izin_ve_yakmayan_izin_ucreti",
+  "short": "Patronun yıl bitmeden kullanmazsan yıllık izinlerin yanar diyorsa sakın inanma. Kanuna göre yıllık izinlerin asla yanmaz ve işten ayrıldığında tek tek nakit paraya dönüşür. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İZİN yaz, hemen göndereyim.",
+  "uzun": "Çalışırken yoğunluktan kullanamadığın yıllık izinlerin sıfırlandığını söyleyen işverenlere karşı kanunun ne dediğini ve işten çıkarken bu günlerin parasını nasıl hesaplayıp alacağını anlatıyorum. İş Kanunu'na göre aynı işyerinde bir yılı dolduran her çalışan kıdemine göre on dört, yirmi veya yirmi altı gün ücretli izin kazanır ve kullanılmayan izinler sonraki yıllara devreder. İş sözleşmesi hangi sebeple sona ererse ersin, istifa etsen bile birikmiş tüm yıllık izin günlerinin parası işten çıktığın tarihteki son brüt maaşın üzerinden net nakit olarak ödenmek zorundadır. Ödenmezse arabuluculukta bordronla talep et."
+ },
+ {
+  "id": "VID_048",
+  "slug": "048_performans_baskisi_ve_savunma_hakki",
+  "short": "İşveren tazminat vermemek için senin hakkında art arda performans veya devamsızlık tutanağı tutmaya başladıysa dikkat. Savunma kağıdını imzalarken atacağın tek bir cümle tazminatını kurtarır. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SAVUNMA yaz, hemen göndereyim.",
+  "uzun": "İşten çıkarma öncesi dosya hazırlığı yapan işverenlerin en sık başvurduğu yöntem haksız tutanaklar ve savunma istemeleridir. Önüne savunma kağıdı konulduğunda ne yazman ve ne yapman gerektiğini gösteriyorum. Önüne gelen savunma talebini tebellüğ ederken üzerine mutlaka İtiraz haklarım saklı kalmak kaydıyla teslim aldım yaz ve tarih at. Savunmanı verirken sadece somut gerçekleri yaz, duygusal tepki verme ve mutlaka bir kopyasını ya da fotoğrafını al. İşveren seni performans düşüklüğüyle çıkarırsa bir ay içinde arabuluculuğa gidip İşe İade Davası açabilirsin; çünkü mahkemede geçerli fesih için işverenin sana önceden yazılı uyarı ve eğitim vermiş olması şarttır."
+ },
+ {
+  "id": "VID_049",
+  "slug": "049_kurye_parttime_stajyer_haklari",
+  "short": "Part-time çalışıyorsun diye yıllık izin veya tazminat hakkın yok sanıyorsan yanılıyorsun. Bir yılını dolduran part-time çalışan da tam zamanlı işçi gibi izin ve kıdem tazminatı alır. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KURYELİK yaz, hemen göndereyim.",
+  "uzun": "Stajyerler, kısmi süreli çalışanlar ve platform kuryeleri çalışma hayatında haklarını en az bilen gruplardan. İşverenlerin gizlediği yasal koruma alanlarını ve eksik primlerin nasıl aranacağını anlatıyorum. Kısmi süreli yani part-time sözleşmede haftalık belirlenen saati aşan her çalışma fazla süreli çalışmadır ve zamlı ödenir; ayrıca bir yıl dolduğunda yıllık izin ve kıdem tazminatı hakkın doğar. Esnaf kurye modelinde ise tek bir platforma bağlı ve onların emri altında çalışıyorsan, yargı kararlarına göre gerçekte işçi sayılabilir ve tazminat davası açabilirsin. Stajyerler ise meslek hastalığı ve iş kazasına karşı sigortalıdır ve staj ücreti asgari ücretin kanuni oranının altında ödenemez."
+ },
+ {
+  "id": "VID_050",
+  "slug": "050_dogum_babalik_sut_izni_haklari",
+  "short": "Özel sektörde çalışıyorsun diye işveren sana süt iznini ya da beş günlük ücretli babalık iznini vermemezlik yapamaz. Bunlar işverenin inisiyatifinde değil, doğrudan kanun emridir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SÜTİZNİ yaz, hemen göndereyim.",
+  "uzun": "Çocuk sahibi olan çalışanların en çok yaşadığı sorun, doğum sonrası izinlerin kullandırılmaması veya süt izninin kesilmesidir. Tüm ücretli izin haklarını ve İŞKUR desteğini nasıl alacağını gösteriyorum. Kadın çalışanlar doğumdan önce sekiz ve sonra sekiz hafta olmak üzere toplam on altı hafta ücretli doğum iznine sahiptir; ardından bir yaşından küçük çocuğunu emzirmek için günde bir buçuk saat ücretli süt izni hakkı vardır ve hangi saatte kullanacağını işçi kendi belirler. Baba olan işçi ise özel sektörde bile beş gün ücretli babalık izni alır. Ayrıca doğum izni bitiminde e-Devlet üzerinden İŞKUR Yarım Çalışma Ödeneği'ne başvurarak devlet desteğiyle yarı zamanlı çalışabilirsin."
+ },
+ {
+  "id": "VID_051",
+  "slug": "051_ihtiyac_nedeniyle_tahliye_tuzagi",
+  "short": "Ev sahibin kendim oturacağım diye seni evden çıkardı ama bir ay sonra aynı evi internette iki katı fiyata ilana koyduysa, o ev sahibinden tam bir yıllık kira bedeli kadar nakit tazminat alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İHTİYAÇ yaz, hemen göndereyim.",
+  "uzun": "İhtiyaç sebebiyle tahliye bahanesi son dönemde kiracıları çıkarmanın en yaygın yolu oldu. Ev sahibinin yalan söylediğini nasıl kanıtlayıp bir yıllık kira tazminatını alacağını adım adım anlatıyorum. Türk Borçlar Kanunu'na göre gereksinim nedeniyle kiracıyı çıkaran ev sahibi, haklı bir sebep olmaksızın o evi üç yıl boyunca eski kiracıdan başkasına kiralayamaz. Eğer evin başkasına kiralandığını görürsen, ilan ekran görüntüsünü, yeni kiracıya ait fatura veya adres tespitlerini toplayıp Sulh Hukuk Mahkemesi'ne tazminat davası aç. Kanun gereği ev sahibi sana son ödediğin yıllık kira bedelinden az olmamak üzere tazminat ödemek zorunda kalır."
+ },
+ {
+  "id": "VID_052",
+  "slug": "052_kombi_tesisat_tamir_sorumlulugu",
+  "short": "Kiralık evde kış ortasında kombi bozulduğunda veya duvar içindeki su borusu patladığında ev sahibin senin kullanımın diyorsa ödeme yapma. Ana tesisat ve demirbaş tamiri ev sahibine aittir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KOMBİ yaz, hemen göndereyim.",
+  "uzun": "Kiralık evlerde en sık kavga çıkan konu olan kombi ve tesisat tamirlerinde kimin neyi ödeyeceği aslında kanunda net. Ev sahibi tamiri yaptırmazsa faturayı kiradan nasıl düşeceğini gösteriyorum. Kombinin yıllık rutin bakımı ve musluk contası gibi küçük günlük kullanımlar kiracıya aittir; ancak kombinin ana kart arızası, petek değişimi, tesisat borusu patlağı ve çatı akması gibi demirbaş onarımları tamamen ev sahibinin sorumluluğundadır. Arıza çıktığında önce ev sahibine WhatsApp üzerinden yazılı bildir ve makul süre ver. Ev sahibi ilgilenmezse yetkili servise tamiri yaptır, faturayı al ve bir sonraki ayın kirasından tamir faturasını düşerek açıklama yazıp kalanını yatır."
+ },
+ {
+  "id": "VID_053",
+  "slug": "053_konut_alim_satim_tapu_guvenligi",
+  "short": "Üzerine kayıtlı bir evin veya arsan varsa, senin haberin olmadan sahte kimlik ya da vekaletle satılmasını engellemek için e-Devlet'te sadece otuz saniyelik bir tapu kilidi var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma WEBUTAPU yaz, hemen göndereyim.",
+  "uzun": "Tapuda sahte vekalet veya kimlik kopyalama dolandırıcılığına karşı kendi mülkünü nasıl koruma altına alacağını Tapu ve Kadastro Genel Müdürlüğü Web Tapu sistemi üzerinden adım adım gösteriyorum. e-Devlet üzerinden Web Tapu hizmetine giriş yap. Sol menüdeki Yetki İşlemleri sekmesinden İşlem Yapılamaz Beyan Tesisi butonuna tıkla ve taşınmazını seçip onayla. Bu kilidi açtığında tapu müdürlüğünde senin şahsen veya yeni e-Devlet onayın olmadan hiçbir satış, ipotek ya da devir işlemi yapılamaz. Ayrıca Web Tapu'da SMS bildirimlerini açık tut ki herhangi bir başvuru anında telefonuna uyarı gelsin."
+ },
+ {
+  "id": "VID_054",
+  "slug": "054_ogrenci_yurt_ve_kisa_donem_kiralama",
+  "short": "Özel öğrenci yurdundan dönem ortasında ayrılmak zorunda kaldığında yurt yönetimi tüm yılın senetlerini ödemek zorundasın diyorsa sakın ödeme. Yönetmeliğe göre sadece kaldığın ayları ödersin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma YURT yaz, hemen göndereyim.",
+  "uzun": "Özel yurt veya pansiyonlarla yapılan yıllık sözleşmelerde okul değişikliği veya haklı sebeple ayrılan öğrencilerin mağdur olmaması için bilmesi gereken fesih ve senet iade haklarını anlatıyorum. Gençlik ve Spor Bakanlığı Özel Öğrenci Barınma Hizmetleri Yönetmeliği'ne göre, yurttan ayrılan öğrenciden sadece kaldığı günlerin ücreti ile kalan toplam borcun en fazla yüzde otuzu kadar tazminat talep edilebilir; tamamı istenemez. Ayrılırken yazılı fesih dilekçesi ver ve kalan senetlerinin üzerine İptal Edilmiştir yazdırıp teslim al. Yurt senetleri vermiyorsa e-Devlet TÜBİS'e ve İl Gençlik ve Spor Müdürlüğü'ne şikayet et."
+ },
+ {
+  "id": "VID_055",
+  "slug": "055_ikametgah_izinsiz_kayit_kontrolu",
+  "short": "Şu an oturduğun evde senin haberin olmadan başka birinin ikametgahı kayıtlı olabilir. Üstelik bunu e-Devlet'ten on saniyede görüp tek bir bildirimle sildirebiliyorsun. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İKAMETGAH yaz, hemen göndereyim.",
+  "uzun": "Özellikle kiracı değişimlerinden sonra eski kiracının veya tanımadığın kişilerin senin evinde kayıtlı kalması icra tebligatlarından faturalara kadar sorun çıkarabilir. Hemen kontrol etme yolunu gösteriyorum. e-Devlet'e gir ve Aynı Hanede İkamet Eden Kişi Sorgulama yazarak Nüfus ve Vatandaşlık İşleri ekranını aç. Listede kendi ailen dışında tanımadığın biri varsa hemen ekran görüntüsü al. Ardından e-Devlet üzerinden Adres Beyanı veya en yakın İlçe Nüfus Müdürlüğü'ne gidip kira kontratınla bildirimde bulunarak o kişinin adres kaydını kendi evinden sildir."
+ },
+ {
+  "id": "VID_056",
+  "slug": "056_adli_sicil_arsiv_kaydi_sildirme",
+  "short": "Yıllar önce kapanmış bir dosya yüzünden iş başvurularında adli sicil kaydın hala kirli çıkıyorsa, belirli süreler dolduğunda o kaydı tamamen sildirebileceğini biliyor muydun? Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SİCİL yaz, hemen göndereyim.",
+  "uzun": "Geçmişte yaşanmış ve cezası tamamlanmış bir olayın ömür boyu kariyerinin önünde engel olmasını istemiyorsan, adli sicil ve arşiv kaydının ne zaman ve nasıl silineceğini adım adım anlatıyorum. Önce e-Devlet'ten Adli Sicil Kaydı Sorgulama belgeni al ve kaydın adli sicilde mi yoksa arşiv kaydında mı göründüğüne bak. Cezanın infazı tamamlandığında adli sicil kaydı silinip arşive alınır; arşiv kaydı ise kanuni bekleme süreleri dolduğunda Adli Sicil ve İstatistik Genel Müdürlüğü'ne verilecek yazılı dilekçeyle tamamen silinir. Memnu hakların iadesi kararını aldıktan sonra UYAP veya adliye üzerinden silme talebini hemen gönderebilirsin."
+ },
+ {
+  "id": "VID_057",
+  "slug": "057_belediye_ve_imar_sikayet_sureci",
+  "short": "Sokağındaki bozuk yolu, yanmayan lambayı veya kaldırımı kapatan işletmeyi telefonla arayıp sonuç alamıyorsan, resmi takip numaralı bu iki kanalı kullandığında ekip göndermek zorunda kalıyorlar. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma BELEDİYE yaz, hemen göndereyim.",
+  "uzun": "Belediye ve kamu hizmetlerindeki aksaklıkların sadece telefonla arandığında unutulmasını istemiyorsan, işlemi resmi evrak kaydına dönüştüren e-Devlet Açık Kapı sistemini nasıl kullanacağını gösteriyorum. e-Devlet'e gir ve İçişleri Bakanlığı Açık Kapı Başvurusu ekranını aç veya doğrudan belediyenin e-Belediye başvuru sistemini kullan. Konumu haritadan işaretle, sorunun net fotoğrafını yükle ve talebini kısa cümleyle yaz. Sistem sana anında bir takip numarası verir ve ilgili birim yedi iş günü içinde işlem sonucunu fotoğrafla sana bildirmek zorundadır."
+ },
+ {
+  "id": "VID_058",
+  "slug": "058_pasaport_ve_ehliyet_harci_geri_alma",
+  "short": "Pasaport ya da ehliyet yenilemek için bankaya binlerce lira harç yatırdın ama işlemden vazgeçtiysen veya yanlış tutar ödediysen, o para yanmıyor. Telefondan beş dakikada hesabına geri çekebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma HARÇ yaz, hemen göndereyim.",
+  "uzun": "Yanlış tutar yatırılan veya kullanılmayan pasaport, ehliyet ve telefon IMEI kayıt harçlarını vergi dairesinde sıra beklemeden Dijital Vergi Dairesi üzerinden nasıl geri alacağını gösteriyorum. dijital.gib.gov.tr adresine e-Devlet şifrenle gir. İşlem Başlat menüsünden İade Talepleri ve ardından Harç ve Değerli Kağıt Bedeli İade Talebi'ne tıkla. Ödemeyi yaptığın dekonttaki seri numarasını veya tahakkuk bilgilerini girip kullanılmadığını seç. Kendi adına ait IBAN'ı yazıp gönderdiğinde inceleme sonrası paran hesabına geri yatırılır."
+ },
+ {
+  "id": "VID_059",
+  "slug": "059_kvkk_izinsiz_fotograf_ve_veri_silme",
+  "short": "Bir firma ya da kişi senin açık rızan olmadan telefon numaranı üçüncü kişilere verdiyse veya fotoğrafını reklamında kullandıysa sadece sildirmekle kalmaz, yüz binlerce lira idari ceza kestirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KVKK yaz, hemen göndereyim.",
+  "uzun": "Kişisel verilerin ve fotoğrafların izinsiz kullanıldığında önce ilgili şirkete başvurup ardından KVKK Kurumu'na nasıl resmi şikayet dosyası açacağını adım adım gösteriyorum. KVKK kuralı gereği önce verini izinsiz kullanan firmaya yazılı veya KEP/e-posta yoluyla başvurup verinin silinmesini istemen gerekir; firmanın otuz gün cevap süresi vardır. Firma otuz gün içinde yanıt vermez veya talebini reddederse, kanıtlarınla birlikte kvkk.gov.tr üzerinden KVKK Şikayet Modülü'ne e-Devlet ile giriş yapıp şikayetini oluştur. Kurul ihlali tespit ederse firmaya ağır idari para cezası uygular."
+ },
+ {
+  "id": "VID_060",
+  "slug": "060_sahte_is_ilani_ve_yatirim_uygulamalari",
+  "short": "Telegram veya Instagram'dan sana günlük iki bin lira kazanmak için sadece hesabına gelen parayı başka hesaba aktar diyorlarsa sakın kabul etme. Bu yüzden hakkında nitelikli dolandırıcılık davası açılır. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SAHTEİŞ yaz, hemen göndereyim.",
+  "uzun": "Son dönemde özellikle gençleri ve ev hanımlarını hedef alan sahte görev yap kazan ve IBAN kiralama tuzaklarının nasıl işlediğini, bu tuzağa düşmemek ve düştüysen ne yapman gerektiğini anlatıyorum. Hiçbir yasal şirket komisyon karşılığı kendi banka hesabından başkasının parasını transfer etmeni istemez; hesabını kullandırdığında tüm dolandırıcılık mağdurlarının parası senin IBAN'ına aktığı için doğrudan sanık olursun. Ayrıca iş başvurusu bahanesiyle senden kimlik ön arka fotoğrafı ve kredi kartı doğrulama için bir lira isteyen sahte sitelere asla bilgi verme. Şüpheli bir hesapla işlem yaptıysan hemen savcılığa gidip kendi rızanla ihbarda bulun."
+ },
+ {
+  "id": "VID_061",
+  "slug": "061_otobus_tren_feribot_bilet_iptali",
+  "short": "Otobüs veya tren biletini son anda kullanamayacağını anladığında firma bilet yanar değişim olmaz diyorsa inanma. Yönetmeliğe göre seferden önce biletini açığa alma veya iade hakkın var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma BİLET yaz, hemen göndereyim.",
+  "uzun": "Şehirlerarası otobüs ve tren yolculuklarında sefer iptalleri, rötarlar ve bilet iadesi konusunda firmaların yolculara söylemediği kanuni hakları adım adım gösteriyorum. Karayolu Taşıma Yönetmeliği'ne göre yolcu seferden yirmi dört saat öncesine kadar biletini iptal edip tam iade alabilir, on iki saat öncesine kadar ise biletini altı ay geçerli olmak üzere açık bilete çevirebilir. Ayrıca otobüs firması seferi kendi iptal ederse veya aracın arızalanmasıyla seni mağdur ederse bilet ücretini iade etmek zorundadır. Firma hakkını vermezse biletinle Ulaştırma Bakanlığı U-ETDS şikayet hattına veya e-Devlet TÜBİS'e başvur."
+ },
+ {
+  "id": "VID_062",
+  "slug": "062_hgs_kopru_gecis_ceza_itirazi",
+  "short": "HGS'de paran olduğu halde gişe okumadı diye dört katı ceza geldiyse sakın hemen dört katını ödeme. On beş gün içinde bakiye yüklediğinde ceza düşer, hiç geçmediysen tek tıkla iptal ettirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma HGS yaz, hemen göndereyim.",
+  "uzun": "Hatalı plaka okuma veya bakiye düşmeme yüzünden gelen fahiş HGS ve otoyol cezalarını ödemeden önce kontrol etmen gereken ekranı ve itiraz yolunu gösteriyorum. Önce e-Devlet'ten HGS İhlalli Geçiş Bilgileri Sorgulama ekranına gir ve geçiş fotoğrafını kontrol et. Eğer gerçekten geçtiysen ve tebligat tarihinden itibaren on beş gün dolmadıysa hemen hesabına geçiş ücreti kadar bakiye yükle; dört katı ceza otomatik silinir. Eğer fotoğraftaki araç senin değilse veya plaka yanlış okunduysa Karayolları Genel Müdürlüğü veya ilgili otoyol işletmesinin itiraz formuna fotoğrafı ekleyerek cezayı tamamen iptal ettir."
+ },
+ {
+  "id": "VID_063",
+  "slug": "063_ikame_arac_ve_sigorta_hakki",
+  "short": "Aracın kaza yüzünden haftalarca serviste yatarken otobüse binmek zorunda kalıyorsan bilmediğin iki hakkın var: Poliçendeki ikame araç ve aracın yattığı günlerin nakit tazminatı. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İKAME yaz, hemen göndereyim.",
+  "uzun": "Trafik kazası sonrası aracın tamirde beklerken mağdur olmaman için sigorta ve kasko poliçelerindeki ikame araç ve araç mahrumiyet bedeli haklarını nasıl kullanacağını anlatıyorum. Kaskon varsa poliçendeki ikame araç teminatını hemen aktif edip ekspertiz onayıyla birlikte aynı gün kiralık araç talep et. Kaskon yoksa bile kazada kusursuzsan, aracının serviste tamirde kaldığı her gün için karşı tarafın sürücüsünden ve ruhsat sahibinden Araç Mahrumiyet Bedeli yani ikame araç kira bedelini icra veya dava yoluyla talep edebilirsin. Servisten giriş çıkış tarihlerini gösteren belgeyi mutlaka al."
+ },
+ {
+  "id": "VID_064",
+  "slug": "064_tibbi_ihmal_ve_hasta_mahremiyeti",
+  "short": "Estetik, diş veya bir ameliyat işleminde sana olası riskler önceden yazılı anlatılmadıysa ve zarar gördüysen, doktor komplikasyon oldu diyerek sorumluluktan kurtulamaz. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma HASTA yaz, hemen göndereyim.",
+  "uzun": "Tıbbi müdahalelerde hastanın en temel hakkı olan aydınlatılmış onam, hasta mahremiyeti ve doktor hatası durumunda başvurulacak resmi mercileri adım adım gösteriyorum. Her tıbbi işlem öncesi sana risklerin tek tek anlatıldığı Aydınlatılmış Onam Formu imzalatılmalıdır; bu yoksa veya doktor özen yükümlülüğünü ihlal ettiyse tıbbi ihmal yani malpraktis doğar. İkinci olarak doktor veya klinik senin açık yazılı rızan olmadan öncesi sonrası fotoğraflarını sosyal medyada paylaşamaz. Mağduriyet yaşarsan tüm epikriz ve faturalarını alıp Sağlık Bakanlığı SABİM ALO 184 ve İl Sağlık Müdürlüğü Hasta Hakları Birimi'ne başvur."
+ },
+ {
+  "id": "VID_065",
+  "slug": "065_refakatci_ve_raporlu_ilac_haklari",
+  "short": "Anne, baba veya çocuğun ağır bir hastalık geçiriyorsa hem memurlar için üç aya kadar ücretli refakat izni hem de raporlu ilaçlarda katkı payı ödememe hakkın olduğunu biliyor muydun? Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma REFAKAT yaz, hemen göndereyim.",
+  "uzun": "Ağır hastalık ve uzun tedavi süreçlerinde hastanın ve yakınının bütçesini koruyan refakat izni, raporlu ilaç muafiyeti ve evde bakım desteği kurallarını anlatıyorum. Devlet memurları bakmakla yükümlü olduğu yakınının hayati tehlikesi varsa sağlık kurulu raporuyla üç aya kadar aylıklı refakat izni alabilir; özel sektörde ise mazeret ve yıllık izin hakları devreye girer. Ayrıca kronik hastalığı bulunanlar uzman doktordan İlaç Kullanım Raporu çıkardığında eczanede bu ilaçlar için yüzde on veya yirmi muayene ve ilaç katılım payından muaf tutulur. Bakıma muhtaç ağır engelli raporu olanlar için e-Devlet'ten Evde Bakım Yardımı başvurusu yapılabilir."
+ },
+ {
+  "id": "VID_066",
+  "slug": "066_dogum_ve_sut_parasi_edevlet",
+  "short": "Yeni bebeğiniz olduysa devletin verdiği üç ayrı ödemeyi almayı sakın unutma. Süt parası ve doğum yardımı için sadece e-Devlet'ten IBAN tanımlaman bile yeterli. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma DOĞUMPARASI yaz, hemen göndereyim.",
+  "uzun": "Doğum sonrası hem çalışan annelerin hem de eşinin sigortasından faydalanan ailelerin hak kazandığı SGK emzirme ödeneği, doğum yardımı ve analık rapor parasını nasıl alacağını gösteriyorum. Birinci ödeme, Doğum Yardımı: Bebeğin kimliği çıktıktan sonra e-Devlet'ten Doğum Yardımı Başvurusu yapabilir veya Sosyal Hizmet Merkezi'ne verebilirsin. İkinci ödeme, SGK Süt Parası: Anne veya baba son bir yılda yüz yirmi gün sigortalıysa sistem otomatik onaylar, e-Devlet'te Şahıs Ödemeleri Banka Hesabı Tanımlama ekranından IBAN'ını kaydetmen yeterlidir. Üçüncü ödeme, çalışan annenin on altı haftalık analık iş göremezlik raporu parası ise SGK tarafından hesabına yatırılır."
+ },
+ {
+  "id": "VID_067",
+  "slug": "067_burs_ve_yurt_haklari_universite",
+  "short": "Üniversite başında sana geri ödemeli KYK kredisi çıktı ama sonrasında anne babanın iş durumu değişti veya bölüm birincisi oldun; kredini geri ödemesiz bursa çevirebileceğini biliyor muydun? Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma EKMEKBURSU yaz, hemen göndereyim.",
+  "uzun": "Geri ödemeli KYK öğrenim kredisini hangi durumlarda geri ödemesiz bursa dönüştürebileceğini ve e-Devlet üzerinden başvuru adımlarını gösteriyorum. Eğer anne veya babanın vefatı, yüzde kırk ve üzeri engelli raporu alması, aile gelirinin asgari sınırın altına düşmesi veya okulda dereceye girmen gibi bir durum oluştuysa, e-Devlet üzerinden Gençlik ve Spor Bakanlığı Kredi/Burs Durum Değişikliği ekranına veya GSB il müdürlüğüne belgelerinle başvur. Onaylandığında o tarihten sonraki ödemelerin geri ödemesiz bursa dönüşür."
+ },
+ {
+  "id": "VID_068",
+  "slug": "068_evlilik_ve_bosanma_mal_paylasimi",
+  "short": "Evlendikten sonra alınan ev ya da araba sadece eşinin üzerine tapulandıysa, boşanma durumunda senin hiçbir hakkın yok sanma. Kanuna göre evlilik içinde alınan mallar ortaktır. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma MALPAYLAŞIMI yaz, hemen göndereyim.",
+  "uzun": "Evlilik ve boşanma süreçlerinde en çok yanlış bilinen iki konu olan tek eş adına kayıtlı malların paylaşımı ve düğün takılarının hukuki durumunu net şekilde açıklıyorum. 2002 sonrası yürürlükteki yasal rejime göre evlilik içinde çalışma karşılığı edinilen ev, araba ve banka birikimleri kimin üzerine kayıtlı olursa olsun boşanmada yarı yarıya paylaşılır; yalnızca evlilik öncesi mallar ve mirasla gelenler kişisel maldır. Ayrıca boşanmada eşinin malı kaçırmasını önlemek için aile konutu olan eve e-Devlet veya tapudan tek taraflı Aile Konutu Şerhi koydurabilirsin. Düğün takıları ise aksine anlaşma yoksa kadına bağışlanmış sayılır."
+ },
+ {
+  "id": "VID_069",
+  "slug": "069_evcil_hayvan_apartman_haklari",
+  "short": "Komşuların imza topladı diye evinde beslediğin kedini veya köpeğini evden göndermek zorunda değilsin. Eğer apartman yönetim planında açık bir yasak yoksa kimse hayvanını çıkaramaz. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma PATİ yaz, hemen göndereyim.",
+  "uzun": "Apartman ve sitelerde evcil hayvan sahiplerinin komşularla yaşadığı gerginliklerde kanunun ve Yargıtay kararlarının sınırlarını adım adım anlatıyorum. Tapu müdürlüğünden apartmanın ilk kuruluşundaki Yönetim Planı'nı kontrol et. Yönetim planında açıkça evcil hayvan beslenemez maddesi yoksa sadece apartman toplantısında alınan kararla hayvanın tahliye edilemez. Hayvanın sürekli gürültü veya koku gibi somut rahatsızlık vermemesi şartıyla evinde besleme hakkın vardır; aksi bir baskı varsa Hayvanları Koruma Kanunu ve yönetim planı kayıtlarıyla kendini savunabilirsin."
+ },
+ {
+  "id": "VID_070",
+  "slug": "070_ikinci_el_dolandiriciligi_param_guvende",
+  "short": "İkinci el sitesinde ürün satarken alıcı sana parayı yatırdım, şu linke tıklayıp kart bilgilerini gir hesabına geçsin diyorsa bu yüz de yüz dolandırıcılıktır. Satıcı para almak için asla kart şifresi girmez. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SAHTELİNK yaz, hemen göndereyim.",
+  "uzun": "İkinci el alışveriş platformlarında alıcı kılığındaki dolandırıcıların kurduğu sahte ödeme sayfası tuzağını üç saniyede nasıl fark edeceğini ve linke tıkladıysan ne yapman gerektiğini anlatıyorum. Resmi platformlar satıcıdan para almak için asla SMS veya WhatsApp ile harici bir web linki gönderip kart bilgisi ve 3D şifre istemez; tüm işlemler uygulamanın kendi içinden yürür. Gelen linkin alan adını kontrol et; resmi site adresi dışında harf eklenmiş sahte bir adres varsa hemen engelle. Eğer kart bilgini girdiysen saniyeler içinde bankanı arayıp kartını kapattır ve yazışmalarla savcılığa başvur."
+ },
+ {
+  "id": "VID_071",
+  "slug": "071_haksiz_reklam_ve_yaniltici_indirim",
+  "short": "Bir ürünün fiyatı dün bin lirayken bugün iki bin liradan bin iki yüz liraya düşmüş gibi sahte indirim gösteriliyorsa, o firmaya yüz binlerce lira ceza kestirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma REKLAM yaz, hemen göndereyim.",
+  "uzun": "E-ticaret sitelerinde sıkça yapılan sahte indirim ve aldatıcı fiyat oyunlarına karşı Ticaret Bakanlığı Reklam Kurulu'na nasıl başvuru yapılacağını gösteriyorum. Yönetmeliğe göre indirimli satışlarda önceki fiyat olarak son otuz gün içindeki en düşük fiyat esas alınmalıdır. Ürünün indirim öncesi ve sonrası fiyat geçmişinin ekran görüntüsünü al. e-Devlet üzerinden Ticaret Bakanlığı Reklam Kurulu Şikayet Başvurusu ekranına girip firma bilgilerini ve ekran görüntülerini yükle; inceleme sonrası firmaya idari para cezası kesilir."
+ },
+ {
+  "id": "VID_072",
+  "slug": "072_dugun_ve_tatil_iptali_kapora_iadesi",
+  "short": "Tatil rezervasyonunu veya düğün salonunu aylar öncesinden iptal etmek zorunda kaldığında işletme kapora yanar diyorsa kanuna bak. İşletme zararını ispatlamadan o parayı tutamaz. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma KAPORA yaz, hemen göndereyim.",
+  "uzun": "Otel, paket tur veya düğün organizasyonu iptallerinde verilen yüksek kaporayı ve peşinatı geri almanın yasal şartlarını adım adım anlatıyorum. Paket Tur Sözleşmeleri Yönetmeliği'ne göre tüketicinin otuz gün önceden yazılı bildirimiyle tur bedelinin tamamı iade edilir; hastalanma gibi mücbir sebeplerde ise son ana kadar kesintisiz iade hakkı vardır. Düğün salonu gibi sözleşmelerde ise işletme o tarihi başkasına kiraladıysa hiçbir zararı olmadığı için kaporanı iade etmek zorundadır. Yazılı iptal bildirimi gönder ve ödeme yapılmazsa e-Devlet TÜBİS'ten iade iste."
+ },
+ {
+  "id": "VID_073",
+  "slug": "073_otomatik_yenilenen_uygulama_aboneligi",
+  "short": "Ücretsiz yedi gün dene deyip unuttuğun bir uygulama şu an her ay kartından yüzlerce lira çekiyor olabilir. Telefonunun içindeki tek bir menüden tüm gizli abonelikleri hemen kapat. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ABONELİK yaz, hemen göndereyim.",
+  "uzun": "Kredi kartı ekstrende fark etmeden her ay ödediğin dijital uygulama aboneliklerini nasıl tespit edip iptal edeceğini ve son kesilen tutarı nasıl geri isteyeceğini gösteriyorum. iPhone kullanıyorsan Ayarlar'dan adının üzerine basıp Abonelikler sekmesini aç; Android kullanıyorsan Google Play Store sağ üst profilinden Ödemeler ve Abonelikler menüsüne gir. Kullanmadığın tüm aktif abonelikleri tek tıkla iptal et. Haberin olmadan yeni yenilenmiş bir ücret varsa platformun Sorun Bildir sayfasından iade iste; çekim durmazsa bankana itiraz et."
+ },
+ {
+  "id": "VID_074",
+  "slug": "074_gece_calismasi_75_saat_siniri",
+  "short": "Gece vardiyasında çalışıyorsan ve vardiya süren on saati buluyorsa dikkat. Haftalık kırk beş saati doldurmasan bile gece yedi buçuk saati aşan her dakika fazla mesaidir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma GECE yaz, hemen göndereyim.",
+  "uzun": "Gece çalışan işçilerin çoğu yedi buçuk saat sınırını bilmediği için ekstra zamlı mesai ücretini alamıyor. Gece vardiyası haklarını ve hesaplamasını anlatıyorum. İş Kanunu'na göre akşam sekiz ile sabah altı arası gece dönemidir ve işçilerin gece çalışmaları günde yedi buçuk saati geçemez. Güvenlik, turizm ve sağlık işkollarında yazılı onay olmadıkça bu süre aşılamaz; aşıldığı her durumda haftalık toplam çalışma kırk beş saatin altında kalsa dahi yedi buçuk saatin üzerindeki her saat yüzde elli zamlı fazla mesai olarak ödenmek zorundadır. Bordronu kontrol et ve ödenmiyorsa ALO 170'e bildir."
+ },
+ {
+  "id": "VID_075",
+  "slug": "075_ise_iade_davasi_30_gun_suresi",
+  "short": "İşten haksız yere çıkarıldıysan ve işyerinde otuzdan fazla kişi çalışıyorsa, tebligatı aldığın günden itibaren sadece otuz günün var. Süreyi kaçırmazsan ekstra sekiz maaşa kadar tazminat alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İŞEİADE yaz, hemen göndereyim.",
+  "uzun": "İşe iade davasıyla hem boşta geçen dört aylık maaşını hem de işveren geri almazsa sekiz aya kadar işe başlatmama tazminatını nasıl alacağını adım adım anlatıyorum. Şartlar şunlardır: Belirsiz süreli sözleşme, en az altı aylık kıdem ve işverenin aynı işkolunda toplam otuz veya daha fazla çalışanının bulunması. Fesih bildirimi eline ulaştığı günden itibaren kesinlikle bir ay içinde adliyedeki Arabuluculuk Bürosu'na başvurmalısın; bir gün bile geçerse hak düşer. Arabuluculukta anlaşma çıkmazsa iki hafta içinde iş mahkemesinde İşe İade Davası açılır."
+ },
+ {
+  "id": "VID_076",
+  "slug": "076_engelli_calisan_vergi_indirimi_hakki",
+  "short": "Yüzde kırk ve üzeri engelli sağlık kurulu raporun varsa, maaşından her ay daha az vergi kesilmesini sağlayabilir ve yaş şartına takılmadan erken emekli olabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ENGELLİHAK yaz, hemen göndereyim.",
+  "uzun": "Engelli çalışanların maaşını artıran vergi indirimi belgesini vergi dairesine gitmeden Dijital Vergi Dairesi üzerinden nasıl alacağını gösteriyorum. Çalıştığın işyerinden aldığın çalışma belgesi ve engelli sağlık kurulu raporunla Dijital Vergi Dairesi'ne girip Engellilik İndirimi Başvurusu bölümünden talebini gönder. Raporun Maliye Merkez Sağlık Kurulu tarafından onaylandığında yazın işyerine ve sana ulaşır; o aydan itibaren derecene göre maaşına vergi indirimi yansır ve SGK erken emeklilik şartlarında avantaj kazanırsın."
+ },
+ {
+  "id": "VID_077",
+  "slug": "077_uzaktan_calisan_elektrik_internet_hakki",
+  "short": "Evden çalışıyorsun diye tüm internet, elektrik ve bilgisayar masrafını cebinden karşılamak zorunda değilsin. Yönetmeliğe göre işin gerektirdiği ekipmanı işveren sağlamak zorunda. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma UZAKTAN yaz, hemen göndereyim.",
+  "uzun": "Uzaktan çalışma modelinde çalışanların ekipman, gider paylaşımı, iş kazası ve mesai saati dışındaki haklarını yönetmelik çerçevesinde anlatıyorum. Uzaktan Çalışma Yönetmeliği gereğince, aksi yazılı kararlaştırılmadıkça işin yapılabilmesi için gerekli malzeme ve iş araçları işveren tarafından sağlanmalıdır; ayrıca işin görülmesinden doğan zorunlu giderlerin karşılanma şekli yazılı sözleşmede yer almalıdır. Unutma, evden çalışırken mesai saatleri içinde yaşadığın bir kaza da iş kazası sayılır ve işveren mesai saati dışında seni sürekli arayamaz."
+ },
+ {
+  "id": "VID_078",
+  "slug": "078_kisa_donem_gunluk_kiralama_ruhsat",
+  "short": "Yan daireni otel gibi her gün başka birine kiraya veren komşun varsa ve apartmanın huzuru kalmadıysa, artık tüm kat maliklerinin oy birliği olmadan günlük kiralama yapmak yasak. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma TURİZM yaz, hemen göndereyim.",
+  "uzun": "Konutların turizm amaçlı kısa süreli kiralanmasına dair yeni kanunla birlikte, izin belgesi olmadan günlük kiralama yapan daireleri nasıl şikayet edeceğini gösteriyorum. Yasal düzenlemeye göre yüz günden kısa süreli kiralamalar için apartmandaki tüm kat maliklerinin oy birliğiyle onay vermesi ve Kültür ve Turizm Bakanlığı'ndan İzin Belgesi alınması zorunludur. İzin belgesi olmadan kiraya verilen daireler için CİMER üzerinden İl Kültür ve Turizm Müdürlüğü'ne ve valiliğe şikayet oluşturduğunda, daire sahibine yüz binlerce lira idari para cezası kesilir ve faaliyet durdurulur."
+ },
+ {
+  "id": "VID_079",
+  "slug": "079_komsunun_agaci_suyu_ve_sinir_ihlali",
+  "short": "Üst komşun halı yıkayıp balkonundan aşağı su döküyor ya da yan bahçedeki ağacın dalları senin evinin çatısını bozuyorsa kanunen bunu önleme hakkın var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ARSA yaz, hemen göndereyim.",
+  "uzun": "Üst kattan akan su sızıntıları, balkondan dökülen sular ve komşu bahçeden taşan ağaç dalları konusunda Medeni Kanun'un tanıdığı hakları anlatıyorum. Medeni Kanun'a göre komşunun ağacının senin arazina taşan dal ve köklerini, komşuya uygun bir süre verip kesmesini istedikten sonra kesmezse kendin kesebilirsin. Üst kattan evine su sızıyorsa belediye veya sulh hukuk mahkemesinden Delil Tespiti yaptır; üst daire sahibi tesisatını onarmak ve evindeki boya/parke zararını ödemek zorundadır."
+ },
+ {
+  "id": "VID_080",
+  "slug": "080_e_devlet_araclarim_ceza_ve_borc_kontrolu",
+  "short": "Aracını satmak için alıcıyla notere gittiğinde üzerinde beş yıl önceden kalma küçük bir vergi haczi yüzünden satışın durabilir. Gitmeden otuz saniyede e-Devlet'ten kontrol et. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ARAÇKONTROL yaz, hemen göndereyim.",
+  "uzun": "Araç alım satımında noterde mağdur olmamak için aracın üzerindeki tüm hak mahrumiyeti, rehin ve borçları e-Devlet'ten tek ekranda nasıl göreceğini gösteriyorum. e-Devlet'e gir ve Adıma Tescilli Araç Sorgulama yazarak Emniyet Genel Müdürlüğü ekranını aç. Aracının plakasına tıkla ve Hak Mahrumiyeti Bilgileri satırına bak. Burada bir haciz varsa Dijital Vergi Dairesi'nden veya ilgili icra dairesinden borcu ödeyip fek yazısının sisteme düşmesini bekle. Ayrıca EGM Trafik Cezası Sorgulama ile açık ceza kalmadığını doğrula."
+ },
+ {
+  "id": "VID_081",
+  "slug": "081_cimer_ve_ombudsman_kdk_basvurusu",
+  "short": "Bir kamu kurumu veya belediye haklı olduğun bir başvurunu reddettiyse, avukat tutup dava açmadan önce devleti denetleyen Ombudsman'a tamamen ücretsiz başvurabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma OMBUDSMAN yaz, hemen göndereyim.",
+  "uzun": "Devlet kurumlarının haksız veya hatalı kararlarına karşı mahkeme masrafı ödemeden sonuç alabileceğin Kamu Denetçiliği Kurumu yani KDK başvuru ekranını gösteriyorum. e-Devlet üzerinden Kamu Denetçiliği Kurumu e-Başvuru hizmetine gir. Öncelikle ilgili kuruma başvuru yaptığını ve reddedildiğini gösteren cevabı sisteme yükle. KDK başvurunu inceleyip seni haklı bulursa kuruma tavsiye kararı gönderir ve kurumların büyük çoğunluğu bu karara uyarak işlemini düzeltir; üstelik tamamen ücretsizdir."
+ },
+ {
+  "id": "VID_082",
+  "slug": "082_kisisel_verileri_temizleme_google_ve_rehber",
+  "short": "Adını Google'a yazdığında eski adresin ya da telefon numaran çıkıyorsa ya da bilmediğin bir rehber uygulamasında ismin görünüyorsa, bunu birkaç dakikada sildirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma VERİSİL yaz, hemen göndereyim.",
+  "uzun": "İnternette açıkça dolaşan telefon numaranı, adresini ve kişisel bilgilerini arama motorlarından ve arayan kimliği uygulamalarından nasıl kaldıracağını adım adım gösteriyorum. Öncelikle arayan kimliği uygulamalarının resmi web sitelerindeki Unlist yani Listeden Çıkar sayfalarına girip telefon numaranı doğrulayarak kaydını sildir. Ardından Google Arama'da kişisel bilgin çıkıyorsa Google'ın Kişisel Bilgileri Kaldırma Formu üzerinden ilgili linki bildir. Eğer bilgi bir Türk web sitesinde izinsiz duruyorsa site sahibine yazılı ihtar gönderip kaldırmazsa KVKK'ya şikayet et."
+ },
+ {
+  "id": "VID_083",
+  "slug": "083_whatsapp_iki_adimli_dogrulama_tuzagi",
+  "short": "Yakın bir arkadaşının numarasından sana yanlışlıkla senin numarana altı haneli bir kod gönderdim, atar mısın mesajı geldiyse sakın atma. O kodla WhatsApp'ını on saniyede çalıyorlar. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma WP2FA yaz, hemen göndereyim.",
+  "uzun": "WhatsApp hesaplarının çalınmasında en yaygın yöntem olan altı haneli kod tuzağını etkisiz hale getirecek iki kritik güvenlik ayarını telefonundan hemen nasıl açacağını gösteriyorum. WhatsApp Ayarlar menüsünden Hesap ve ardından İki Adımlı Doğrulama bölümüne girip altı haneli gizli bir PİN kodu ve kurtarma e-postası belirle; böylece biri SMS kodunu ele geçirse bile bu PİN olmadan hesabına giremez. İkinci olarak Ayarlar içindeki Bağlı Cihazlar sekmesini haftada bir kontrol et; tanımadığın bir tarayıcı oturumu görürsen hemen çıkış yap."
+ },
+ {
+  "id": "VID_084",
+  "slug": "084_cekici_ve_oto_servis_fazla_fatura",
+  "short": "Aracını tamire bıraktın, usta seni aramadan on binlerce liralık parça değiştirip faturayı önüne koyduysa o ekstra tutarı ödemek zorunda değilsin. Önceden onay almak zorundalar. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SERVİS yaz, hemen göndereyim.",
+  "uzun": "Özel oto servislerde, lastikçilerde veya çekici hizmetlerinde yaşanan izinsiz işlem ve fahiş fatura mağduriyetlerinde tüketici haklarını nasıl kullanacağını anlatıyorum. İşletme iş emrinde yazmayan ve senin açık onayını almadığı hiçbir ekstra parçayı fatura edemez; yapılan tamir ve değiştirilen parça ise kanunen en az altı ay ayıplı hizmet garantisi altındadır. Aracı teslim alırken mutlaka kaşeli fatura ve değiştirilen eski parçaları talep et. Haksız bir tutar ödediysen veya aynı arıza tekrar ettiyse faturanla e-Devlet TÜBİS üzerinden bedel iadesi başvurusu yap."
+ },
+ {
+  "id": "VID_085",
+  "slug": "085_bagaj_kaybi_ve_hasar_tazminati",
+  "short": "Uçaktan indin, bavulun banttan kırık çıktı ya da hiç gelmediyse sakın havalimanının dışına çıkma. Dışarı çıktığın an havayolu suçu sana atar; hemen içeride şu raporu tutturmalısın. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma BAGAJ yaz, hemen göndereyim.",
+  "uzun": "Uçak yolculuğunda kaybolan, geciken veya parçalanan bavulun ve içindeki eşyaların tazminatını uluslararası Montreal Sözleşmesi'ne göre kuruşu kuruşuna nasıl alacağını anlatıyorum. Gelen yolcu salonundan çıkmadan önce hemen Kayıp Eşya ofisine gidip Bagaj Aksaklık Raporu yani PIR tutanağı tuttur ve bagaj etiketini sakla. Bagajın geç geldiyse acil kıyafet ve ihtiyaç faturalarını kaydet, kırıldıysa fotoğrafını çek. Ardından yedi gün içinde hasarlı bagaj, yirmi bir gün içinde geciken bagaj için havayoluna yazılı tazminat talebi gönder; ödenmezse SHGM'ye ve TÜBİS'e başvur."
+ },
+ {
+  "id": "VID_086",
+  "slug": "086_dis_ve_estetik_hatali_islem_haklari",
+  "short": "Estetik ameliyat veya diş kaplama yaptırdığında normal tedaviden farklı olarak doktor sana sonuç garantisi vermiş sayılır. Sonuç bozuksa ödediğin tüm parayı geri alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ESTETİK yaz, hemen göndereyim.",
+  "uzun": "Normal tıbbi tedavilerden farklı olarak estetik ve kozmetik diş işlemlerinin hukukta Eser Sözleşmesi sayıldığını ve başarısız sonuçta paranı nasıl geri alacağını anlatıyorum. Yargıtay kararlarına göre estetik operasyonlar ve estetik diş uygulamaları Eser Sözleşmesi niteliğindedir; yani hekim sadece tedavi etmekle değil, söz verilen estetik sonucu ortaya çıkarmakla yükümlüdür. İşlem öncesi çekilen fotoğrafları, mesajlardaki vaatleri ve faturaları sakla. Başka bir uzmandan durum tespiti alıp Tüketici Mahkemesi'nde bedel iadesi ve manevi tazminat davası açabilirsin."
+ },
+ {
+  "id": "VID_087",
+  "slug": "087_ilkokul_lise_devamsizlik_ve_sinav_hakki",
+  "short": "Sınavdan yüksek beklerken düşük not geldiyse ve hocan kağıdı göstermiyorsa panik yapma. Üniversite yönetmeliğine göre üç iş günü içinde resmi maddi hata itirazı verdiğinde kağıdın komisyonca incelenir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SINAV yaz, hemen göndereyim.",
+  "uzun": "Sınav kağıdının yanlış toplandığını düşünüyorsan sadece hocaya e-posta atmak resmi bir sonuç doğurmaz. Notunu yasal olarak yeniden değerlendirtmenin adım adım yolunu gösteriyorum. Notlar sisteme girildikten sonraki üç ile beş iş günü içinde fakülte öğrenci işlerine yazılı Maddi Hata İtiraz Dilekçesi ver ve kayıt numarası al. Bölüm başkanlığı en az iki öğretim üyesinden oluşan komisyon kurup kağıdını tekrar puanlamak zorundadır. ÖSYM sınavlarında ise sonuç açıklandıktan sonra on gün içinde AİS üzerinden online inceleme talebi açabilirsin."
+ },
+ {
+  "id": "VID_088",
+  "slug": "088_kyk_kredi_erteleme_issizlik",
+  "short": "Üniversiteden mezun oldun ama henüz işe giremediğin için KYK kredi taksitlerin başladıysa sakın ödeyemiyorum diye icralık olma. İşsizken ödemelerini birer yıl arayla erteleyebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma BURS yaz, hemen göndereyim.",
+  "uzun": "Mezuniyet sonrası başlayan KYK öğrenim kredisi ödemelerini işe girene kadar e-Devlet üzerinden yasal olarak nasıl erteleyeceğini adım adım anlatıyorum. e-Devlet'e gir ve Öğrenim Katkı Kredisi Geri Ödeme Erteleme Talebi yazıp Gençlik ve Spor Bakanlığı hizmetini aç. Sosyal Güvenlik Kurumu kaydında aktif çalışan görünmüyorsan sistem bunu otomatik doğrular ve borcunu bir yıl erteler; ertesi yıl hala işsizsen işlemi tekrarlayabilirsin."
+ },
+ {
+  "id": "VID_089",
+  "slug": "089_sozlesme_imzalamadan_5_tuzak",
+  "short": "Önüne gelen bir kira, kurs veya iş sözleşmesini okumadan imzaladığında, en alttaki iki satır yüzünden aylarca borç ödeyebilirsin. İmza atmadan önce mutlaka kontrol etmen gereken beş tuzak madde var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma SÖZLEŞME yaz, hemen göndereyim.",
+  "uzun": "İster ev tutarken ister bir hizmet ya da iş sözleşmesi imzalarken karşı tarafın koyduğu tek taraflı maddeler sonradan elini kolunu bağlayabilir. Kalemi eline almadan kontrol etmen gereken beş tuzağı gösteriyorum. Birincisi Tek Taraflı Cezai Şart; sadece sana ceza yazan maddeyi kabul etme. İkincisi Otomatik Yenileme; bir ay önceden bildirim yapılmazsa bir yıl uzar maddesine dikkat et. Üçüncüsü Boş Tarih ve Tutar; boş bırakılmış satırları çizgiyle kapat. Dördüncüsü Görmediğin Ekler; ek belgeyi okumadan imza atma. Beşincisi tüm sayfaları parafla ve sözleşmenin bir nüshasını mutlaka al."
+ },
+ {
+  "id": "VID_090",
+  "slug": "090_nafaka_ve_velayet_degisikligi",
+  "short": "Yıllar önce bağlanan nafaka enflasyon karşısında eridiyse yeniden artırım isteyebilirsin. Nafaka borcunu bilerek ödemeyen tarafa karşı ise üç aya kadar tazyik hapsi kararı çıkartılabiliyor. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma NAFAKA yaz, hemen göndereyim.",
+  "uzun": "Boşanma sonrası nafaka miktarının güncellenmesi, nafaka ödenmediğinde nasıl icra başlatılacağı ve velayet düzenlemelerindeki temel kuralları anlatıyorum. Nafaka miktarı çocuğun büyüyen eğitim ve sağlık ihtiyaçlarına göre yetersiz kalıyorsa Aile Mahkemesi'ne Nafaka Artırım Davası açabilirsin; aynı şekilde ödeyen kişinin geliri ciddi düşerse indirim isteyebilir. Mahkeme kararındaki nafaka her ay yatırılmıyorsa icra dairesinden takip başlatıp ödenmeyen her ay için İcra Ceza Mahkemesi'nden tazyik hapsi talep edebilirsin."
+ },
+ {
+  "id": "VID_091",
+  "slug": "091_kredi_karti_asgari_odeme_ve_yapilandirma",
+  "short": "Kredi kartı borcunun asgarisini bile ödeyemeyecek duruma geldiysen, icraya düşüp avukat ve dosya masrafı ödememek için banka ihtar çekmeden yapılandırma iste. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma YAPILANDIRMA yaz, hemen göndereyim.",
+  "uzun": "Kredi kartı ve ihtiyaç kredisi borçları biriktiğinde icra takibine girmeden bankayla nasıl yapılandırma anlaşması yapabileceğini ve yasal faiz sınırlarını anlatıyorum. Ödemeler aksamaya başladığında doksan günlük yasal takip süresi dolmadan bankanın müşteri hizmetleri veya şubesiyle görüşüp mevcut borcunu uzun vadeye yayan Bireysel Kredi/Kart Yapılandırması talep et. Yapılandırmada toplam faiz oranı Merkez Bankası'nın belirlediği yasal tavanın üzerinde olamaz. Eğer avukata devredildiyse bile karşı tarafla yazılı indirim protokolü imzalamadan ödeme yapma."
+ },
+ {
+  "id": "VID_092",
+  "slug": "092_spor_salonu_ve_hizmet_iptali",
+  "short": "Spor salonuna veya bir kursa yıllık peşin para ödedin ama devam edemediğin için iptal istediğinde paran yanar diyorlarsa bu tamamen yalan. Kullanmadığın ayların parasını yasal olarak geri alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma ÜYELİK yaz, hemen göndereyim.",
+  "uzun": "Spor salonu, dil kursu veya güzellik merkezine peşin ödeme yaptın ama hizmetten yararlanamadığın için iptal istediğinde sözleşmede iade yok diyorlarsa paranı nasıl geri alacağını gösteriyorum. İşletmeye noterden veya kurumsal e-posta adresine üyeliğini sonlandırdığına dair yazılı bildirim gönder. Sözleşme ve ödeme dekontunu PDF olarak kaydet. Ardından e-Devlet'ten TÜBİS sistemine girip Yeni Başvuru de; sözleşmedeki iade yapılmaz şartının haksız şart olduğunu ve kullanılmayan dönem bedelinin iadesini talep ettiğini yaz."
+ },
+ {
+  "id": "VID_093",
+  "slug": "093_otopark_vale_ve_cekici_hasari",
+  "short": "Aracını otoparka veya valeye bıraktın, döndüğünde tamponu sürtülmüş ama görevli fişin arkasında sorumluluk kabul edilmez yazıyor diyorsa inanma. Kanunen o yazı tamamen geçersizdir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma VALE yaz, hemen göndereyim.",
+  "uzun": "Ücretli otoparkta, valede veya oto yıkamada aracına zarar verildiğinde işletmelerin arkasına sığındığı sorumsuzluk yazıları hukuken hiçbir anlam taşımıyor. Zararını nasıl ödeteceğini gösteriyorum. Olay yerinden ayrılmadan aracın hasarını, otopark fişini ve güvenlik kameralarını videoya çek. İşletme zararını karşılamazsa hemen polisi arayarak olay yeri tespit tutanağı tuttur. Yetkili servisten onarım hasar faturası alıp e-Devlet TÜBİS üzerinden veya mahkemeden onarım bedelini tahsil et."
+ },
+ {
+  "id": "VID_094",
+  "slug": "094_ozel_saglik_sigortasi_ret_itirazi",
+  "short": "Yıllarca tamamlayıcı sağlık sigortası ödeyip tam ameliyat veya tedavi zamanı geldiğinde sigorta şirketi geçmiş hastalık bahanesiyle red verdiyse hemen cebinden ödeme. Bunu bozmanın net bir yolu var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma POLİÇERET yaz, hemen göndereyim.",
+  "uzun": "Özel veya tamamlayıcı sağlık sigortası şirketlerinin en sık yaptığı ödeme reddi kararını nasıl bozacağını ve tedavi masrafını nasıl alacağını adım adım gösteriyorum. Sigorta şirketinden reddin hangi tıbbi gerekçeye dayandığını yazılı iste. Doktorundan bu hastalığın poliçe başlangıcından sonra ortaya çıkan akut bir durum olduğuna dair detaylı epikriz raporu al ve e-Nabız geçmişini belgele. Tedavi faturaların ve ret yazınla Sigorta Tahkim Komisyonu'na online başvuru yap."
+ },
+ {
+  "id": "VID_095",
+  "slug": "095_sgk_ilac_ve_tibbi_cihaz_geri_odeme",
+  "short": "Doktorunun hayati gördüğü ama SGK listesinde olmadığı için cebinden ödemek zorunda kaldığın pahalı ilaçların veya tıbbi cihazların parasını devletten geri alabileceğini biliyor muydun? Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İLAÇ yaz, hemen göndereyim.",
+  "uzun": "SGK geri ödeme listesinde yer almayan ancak hastanın sağlığı için doktorun zorunlu gördüğü ilaçlar için nasıl resmi başvuru yapıp ödemelerin SGK tarafından karşılanmasını sağlayacağını anlatıyorum. Uzman doktorundan ilacın hayati öneme sahip olduğunu belirten sağlık kurulu raporu al ve TİTCK endikasyon dışı kullanım onayını çıkarttır. Bu belgelerle SGK'ya yazılı geri ödeme başvurusu yap. SGK ret verirse mahkemede acil Yürütmeyi Durdurma talepli dava aç; tedbir kararıyla tüm ilaç bedelini SGK karşılar."
+ },
+ {
+  "id": "VID_096",
+  "slug": "096_engelli_raporu_oran_itirazi",
+  "short": "Engelli sağlık kurulu raporun eksik değerlendirildiği için düşük oranla çıktıysa bu karar kesin değil. İtiraz dilekçesiyle başka bir hastanede yeniden değerlendirme hakkın var. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma RAPOR yaz, hemen göndereyim.",
+  "uzun": "Sağlık kurulu raporundaki oran yüzde kırkın veya doksanın altında kaldığında mevcut rapora nasıl itiraz edeceğini ve hakem hastane sürecinin nasıl işlediğini anlatıyorum. Raporun e-Nabız sistemine düştükten sonra rapor çıktısı ve tüm güncel tahlil epikrizlerinle İl Sağlık Müdürlüğü'ne giderek yazılı itiraz dilekçesi ver. Müdürlük seni başka bir yetkili hastaneye sevk eder; iki rapor farklı çıkarsa Hakem Hastane'nin vereceği karar kesin olur."
+ },
+ {
+  "id": "VID_097",
+  "slug": "097_konut_teslim_gecikmesi_ve_tapu",
+  "short": "Ev aldığın müteahhit sözleşmedeki teslim tarihini aylardır geçiriyor ama sana hala bekle diyorsa, geciken her ay için o evin güncel kira bedelini müteahhitten nakit olarak alabilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma MÜTEAHHİT yaz, hemen göndereyim.",
+  "uzun": "Projeden ev alanların en büyük kabusu olan teslim gecikmelerinde müteahhitten gecikme kira tazminatını ve eksik işlerin bedelini nasıl alacağını adım adım anlatıyorum. Satış sözleşmendeki teslim tarihini kontrol et. Teslim süresi geçtiği halde daire oturulabilir değilse, evi teslim alırken eksikleri belirten yazılı ihtirazi kayıt tutanağı tut ya da noterden ihtarname gönder. Yargıtay kararlarına göre müteahhit geciken her ay için emsal dairenin rayiç kira bedelini ödemek zorundadır."
+ },
+ {
+  "id": "VID_098",
+  "slug": "098_cimer_ve_bilgi_edinme_gucu",
+  "short": "Bir kamu kurumunda ya da belediyede işin haftalarca bekletiliyor ve kimse ilgilenmiyorsa, doğru kanun maddesiyle başvuru yaptığında on beş iş günü içinde cevap vermek zorundalar. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma RESMİ yaz, hemen göndereyim.",
+  "uzun": "CİMER başvurusu yaptığın halde hep kopyala yapıştır cevaplar alıyorsan muhtemelen yanlış kategoriden yazıyorsun. Kurumları harekete geçiren CİMER ve Bilgi Edinme tekniğini gösteriyorum. CİMER sayfasına e-Devlet ile giriş yaptıktan sonra Bilgi Edinme Hakkı Kanunu kapsamında Başvuru seçeneğini işaretle; çünkü bu kanun kurumu on beş iş günü içinde somut belgeyle yanıt vermeye zorlar. Metni kronolojik yazıp ekran görüntüsü ekle; yanıt yetersizse KDK'ya başvur."
+ },
+ {
+  "id": "VID_099",
+  "slug": "099_haksiz_okul_ve_akademik_disiplin",
+  "short": "Üniversitede veya okulda sana savunma hakkı bile tanımadan disiplin cezası verdilerse, o ceza siciline işlenmeden altmış gün içinde iptal ettirebilirsin. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma DİSİPLİN yaz, hemen göndereyim.",
+  "uzun": "Öğrencilerin eğitim hayatını etkileyebilecek haksız disiplin soruşturmalarında savunma hakkının nasıl kullanılacağını ve cezanın nasıl iptal ettirileceğini anlatıyorum. Disiplin yönetmeliğine göre soruşturma sırasında öğrenciye en az yedi gün savunma süresi verilmesi ve hakkındaki delillerin gösterilmesi zorunludur. Savunma alınmadan verilen her ceza hukuka aykırıdır. Ceza tebliğ edildikten sonra on beş gün içinde rektörlüğe veya üst kurula itiraz edebilir, reddedilirse altmış gün içinde İdare Mahkemesi'nde yürütmeyi durdurma talepli iptal davası açabilirsin."
+ },
+ {
+  "id": "VID_100",
+  "slug": "100_is_kazasi_ve_meslek_hastaligi_hakki",
+  "short": "İşyerinde ya da işyerine giderken şirketin servisinde kaza geçirdiysen, patronun normal kaza yazdıralım dese bile kabul etme. Bu iş kazasıdır ve ömür boyu gelir bağlanabilir. Adım adım gerçek ekranlarla nasıl yapıldığını anlattığım uzun videonun linkini istiyorsan, yoruma İŞKAZASI yaz, hemen göndereyim.",
+  "uzun": "İş kazası geçiren çalışanların hastane kaydında yapılan tek bir hata yüzünden tazminat ve SGK haklarını kaybetmemesi için atması gereken adımları gösteriyorum. İşyerinde veya işveren servisinde yaşanan her kaza kanunen İş Kazasıdır. Hastaneye gittiğinde mutlaka doktora olayın işyerinde olduğunu söyleyip İş Kazası Raporu tuttur. İşveren üç iş günü içinde SGK'ya bildirim yapmazsa, sen doğrudan SGK İl Müdürlüğü'ne veya e-Devlet üzerinden CİMER/ALO 170'e bildirimde bulun. Yüzde on ve üzeri kalıcı hasar kalırsa SGK sana ömür boyu Sürekli İş Göremezlik Geliri bağlar."
+ }
+]
