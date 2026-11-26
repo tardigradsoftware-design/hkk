@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Motion Studio — Kod ile İleri Düzey Video Animasyon Motoru</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #080B11;
+      --panel: #0F1420;
+      --panel-elev: #161E2E;
+      --border: rgba(148, 163, 184, 0.14);
+      --ink: #F8FAFC;
+      --muted: #94A3B8;
+      --accent: #38BDF8;
+      --accent-soft: rgba(56, 189, 248, 0.14);
+      --emerald: #10B981;
+      --amber: #F59E0B;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', system-ui, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    header {
+      height: 58px;
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-shrink: 0;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: -0.02em;
+    }
+    .brand-dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 14px var(--accent);
+    }
+    .badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    button, select {
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+      background: var(--panel-elev);
+      border: 1px solid var(--border);
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    button:hover, select:hover {
+      border-color: var(--accent);
+    }
+    button.primary {
+      background: var(--accent);
+      color: #06090F;
+      border-color: var(--accent);
+    }
+    button.primary:hover {
+      filter: brightness(1.08);
+    }
+    .workspace {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 300px 1fr 340px;
+      min-height: 0;
+    }
+    .sidebar {
+      background: var(--panel);
+      border-right: 1px solid var(--border);
+      padding: 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .inspector {
+      background: var(--panel);
+      border-left: 1px solid var(--border);
+      padding: 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .section-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .comp-card {
+      padding: 12px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      margin-bottom: 8px;
+    }
+    .comp-card:hover {
+      border-color: rgba(56, 189, 248, 0.45);
+    }
+    .comp-card.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+    .comp-card h4 {
+      font-size: 13.5px;
+      margin-bottom: 4px;
+    }
+    .comp-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .stage-wrap {
+      display: flex;
+      flex-direction: column;
+      background: radial-gradient(circle at center, #111827 0%, #06080D 100%);
+      min-height: 0;
+    }
+    .canvas-viewport {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      min-height: 0;
+      overflow: hidden;
+    }
+    canvas#previewCanvas {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.72), 0 0 0 1px rgba(255,255,255,0.08);
+      background: #000;
+    }
+    .transport {
+      background: var(--panel);
+      border-top: 1px solid var(--border);
+      padding: 12px 20px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .transport-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .time-readout {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: var(--accent);
+    }
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+    .seq-track {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-top: 4px;
+    }
+    .seq-bar-row {
+      position: relative;
+      height: 20px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .seq-bar {
+      position: absolute;
+      top: 2px;
+      bottom: 2px;
+      background: rgba(56, 189, 248, 0.28);
+      border: 1px solid rgba(56, 189, 248, 0.6);
+      border-radius: 3px;
+      font-size: 10px;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 0 6px;
+      line-height: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    textarea#jsonEditor {
+      width: 100%;
+      flex: 1;
+      min-height: 220px;
+      background: #090D16;
+      color: #E2E8F0;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      line-height: 1.45;
+      resize: vertical;
+    }
+    .gate-pill {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      padding: 7px 10px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 7px;
+      color: #A7F3D0;
+      margin-bottom: 6px;
+    }
+    @media (max-width: 1100px) {
+      .workspace { grid-template-columns: 240px 1fr; }
+      .inspector { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="brand-dot"></span>
+      <span>Agent Motion Studio</span>
+      <span class="badge">60 FPS · DETERMINISTIC · MIT</span>
+    </div>
+    <div class="header-actions">
+      <button id="btnAudioToggle" title="WebAudio Prosedürel Ses Efektlerini Aç/Kapat">🔊 Ses Efektleri: Açık</button>
+      <button id="btnExportWebM" class="primary">⬇ WebM Video İndir (Tarayıcıda Render)</button>
+    </div>
+  </header>
+
+  <div class="workspace">
+    <aside class="sidebar">
+      <div>
+        <div class="section-title">Hazır Sahne & Formatlar</div>
+        <div id="compList"></div>
+      </div>
+
+      <div>
+        <div class="section-title">Kalite Kapıları (Mog Gates)</div>
+        <div class="gate-pill"><span>G0 Deterministik Saat</span><strong>PASS</strong></div>
+        <div class="gate-pill"><span>G1 Okunabilir Tipografi</span><strong>PASS</strong></div>
+        <div class="gate-pill"><span>G2 Sıfır Ölü Kare (Kamera)</span><strong>PASS</strong></div>
+        <div class="gate-pill"><span>G4 Tek Odak Kahraman</span><strong>PASS</strong></div>
+      </div>
+
+      <div>
+        <div class="section-title">CLI Render Komutu (Claude Code)</div>
+        <pre id="cliSnippet" style="background:#090D16;padding:10px;border-radius:8px;border:1px solid var(--border);font-family:'JetBrains Mono',monospace;font-size:11px;color:#38BDF8;white-space:pre-wrap;"></pre>
+      </div>
+    </aside>
+
+    <main class="stage-wrap">
+      <div class="canvas-viewport">
+        <canvas id="previewCanvas" width="1920" height="1080"></canvas>
+      </div>
+
+      <div class="transport">
+        <div class="transport-controls">
+          <div style="display:flex;gap:8px;align-items:center;">
+            <button id="btnPlayPause" style="min-width:98px;">⏸ Duraklat</button>
+            <button id="btnRestart">⏮ Başa Sar</button>
+          </div>
+          <div class="time-readout" id="timeReadout">Kare: 000 / 720 · 0.00s</div>
+          <div style="font-size:12px;color:var(--muted);" id="resReadout">1920×1080 @ 60fps</div>
+        </div>
+        <input type="range" id="scrubber" min="0" max="719" value="0" step="1" />
+        <div class="seq-track" id="seqTrack"></div>
+      </div>
+    </main>
+
+    <aside class="inspector">
+      <div>
+        <div class="section-title">Canlı Ajan JSON Sahne Editörü</div>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:8px;">
+          Ajanınız doğrudan JS kodu yazabileceği gibi aşağıdaki gibi bir JSON şeması üreterek de anında film derleyebilir:
+        </p>
+      </div>
+      <textarea id="jsonEditor" spellcheck="false"></textarea>
+      <button id="btnCompileJson" class="primary">⚡ JSON Sahneyi Derle & Oynat</button>
+      <div id="jsonStatus" style="font-size:12px;color:var(--emerald);"></div>
+    </aside>
+  </div>
+
+  <script type="module">
+    import { SHOWCASE_COMPOSITIONS } from '../examples/showcase-compositions.js';
+    import { compileSceneSpec } from '../src/grammars/scene-compiler.js';
+
+    const canvas = document.getElementById('previewCanvas');
+    const ctx = canvas.getContext('2d');
+    const scrubber = document.getElementById('scrubber');
+    const timeReadout = document.getElementById('timeReadout');
+    const resReadout = document.getElementById('resReadout');
+    const btnPlayPause = document.getElementById('btnPlayPause');
+    const btnRestart = document.getElementById('btnRestart');
+    const btnAudioToggle = document.getElementById('btnAudioToggle');
+    const btnExportWebM = document.getElementById('btnExportWebM');
+    const compListEl = document.getElementById('compList');
+    const seqTrackEl = document.getElementById('seqTrack');
+    const cliSnippetEl = document.getElementById('cliSnippet');
+    const jsonEditor = document.getElementById('jsonEditor');
+    const btnCompileJson = document.getElementById('btnCompileJson');
+    const jsonStatus = document.getElementById('jsonStatus');
+
+    // WebAudio Live Procedural SFX Preview Engine
+    let audioCtx = null;
+    let soundEnabled = true;
+    const triggeredCues = new Set();
+
+    function playProceduralCue(type) {
+      if (!soundEnabled) return;
+      if (!audioCtx) {
+        const AudioContextCls = window.AudioContext || window.webkitAudioContext;
+        if (AudioContextCls) audioCtx = new AudioContextCls();
+      }
+      if (!audioCtx || audioCtx.state === 'suspended') {
+        audioCtx?.resume();
+      }
+      if (!audioCtx) return;
+
+      const now = audioCtx.currentTime;
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      if (type === 'subHit') {
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(105, now);
+        osc.frequency.exponentialRampToValueAtTime(34, now + 0.45);
+        gain.gain.setValueAtTime(0.32, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+        osc.start(now);
+        osc.stop(now + 0.52);
+      } else if (type === 'uiClick' || type === 'shutter') {
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(type === 'uiClick' ? 1200 : 320, now);
+        osc.frequency.exponentialRampToValueAtTime(140, now + 0.08);
+        gain.gain.setValueAtTime(0.16, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.09);
+        osc.start(now);
+        osc.stop(now + 0.1);
+      } else if (type === 'chime' || type === 'pop') {
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(type === 'chime' ? 587.33 : 380, now);
+        osc.frequency.exponentialRampToValueAtTime(type === 'chime' ? 880 : 680, now + 0.18);
+        gain.gain.setValueAtTime(0.18, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.start(now);
+        osc.stop(now + 0.36);
+      } else {
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(240, now);
+        osc.frequency.exponentialRampToValueAtTime(520, now + 0.22);
+        gain.gain.setValueAtTime(0.10, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.24);
+        osc.start(now);
+        osc.stop(now + 0.25);
+      }
+    }
+
+    const catalog = [
+      { key: 'launch-film-16x9', title: '1. Sinematik Tanıtım Filmi', desc: '16:9 · Kinetik Tipografi + Terminal + 3D + Sayı' },
+      { key: 'vox-explainer-16x9', title: '2. Vox / Kurzgesagt Veri Anlatımı', desc: '16:9 · Editöryal Kağıt + Spline Grafik' },
+      { key: 'shorts-reel-9x16', title: '3. YouTube Shorts / Reels', desc: '9:16 Dikey · Kelime Senkronlu Altyazı + Bar' },
+      { key: 'math-3d-16x9', title: '4. 3Blue1Brown Matematik & 3D', desc: '16:9 · Harmonik Dalga Morfu + Jeodezik Küre' },
+      { key: 'json-spec', title: '5. Ajan JSON Şeması (Canlı)', desc: '16:9 · Sağdaki JSON Editörden Derlenir' },
+    ];
+
+    let activeKey = 'launch-film-16x9';
+    let timeline = SHOWCASE_COMPOSITIONS[activeKey]();
+    let currentFrame = 0;
+    let isPlaying = true;
+    let lastTick = performance.now();
+
+    // Load default JSON spec into right-hand live editor
+    fetch('../api/spec')
+      .then((r) => r.json())
+      .then((data) => {
+        jsonEditor.value = JSON.stringify(data, null, 2);
+      })
+      .catch(() => {});
+
+    function renderCatalogCards() {
+      compListEl.innerHTML = '';
+      catalog.forEach((item) => {
+        const div = document.createElement('div');
+        div.className = `comp-card ${item.key === activeKey ? 'active' : ''}`;
+        div.innerHTML = `<h4>${item.title}</h4><div class="comp-meta">${item.desc}</div>`;
+        div.onclick = () => selectComposition(item.key);
+        compListEl.appendChild(div);
+      });
+    }
+
+    function updateTimelineUI() {
+      canvas.width = timeline.width;
+      canvas.height = timeline.height;
+      scrubber.max = String(timeline.durationInFrames - 1);
+      resReadout.textContent = `${timeline.width}×${timeline.height} @ ${timeline.fps}fps · ${timeline.bpm} BPM`;
+
+      cliSnippetEl.textContent = activeKey === 'json-spec'
+        ? `npm run lint:video examples/sample-agent-spec.json\nnpm run render -- --spec examples/sample-agent-spec.json --out renders/explainer.mp4`
+        : `npm run render -- --comp ${activeKey} --out renders/${activeKey}.mp4`;
+
+      // Render sequence bars
+      seqTrackEl.innerHTML = '';
+      const visibleSeqs = timeline.sequences.filter((s) => s.layer < 900);
+      visibleSeqs.forEach((seq) => {
+        const row = document.createElement('div');
+        row.className = 'seq-bar-row';
+        const leftPct = (seq.from / timeline.durationInFrames) * 100;
+        const widthPct = (seq.duration / timeline.durationInFrames) * 100;
+        row.innerHTML = `<div class="seq-bar" style="left:${leftPct}%;width:${widthPct}%">${seq.name} (${seq.from}..${seq.from + seq.duration}f)</div>`;
+        seqTrackEl.appendChild(row);
+      });
+    }
+
+    function selectComposition(key) {
+      activeKey = key;
+      if (key === 'json-spec') {
+        try {
+          const parsed = JSON.parse(jsonEditor.value);
+          timeline = compileSceneSpec(parsed);
+          jsonStatus.textContent = '✓ JSON sahnesi başarıyla derlendi.';
+          jsonStatus.style.color = '#10B981';
+        } catch (e) {
+          jsonStatus.textContent = '✗ JSON Hatası: ' + e.message;
+          jsonStatus.style.color = '#EF4444';
+          return;
+        }
+      } else {
+        timeline = SHOWCASE_COMPOSITIONS[key]();
+      }
+      currentFrame = 0;
+      triggeredCues.clear();
+      renderCatalogCards();
+      updateTimelineUI();
+      drawCurrent();
+    }
+
+    function drawCurrent() {
+      const fInt = Math.floor(currentFrame);
+      timeline.renderFrame(ctx, fInt);
+      scrubber.value = String(fInt);
+      const sec = (fInt / timeline.fps).toFixed(2);
+      timeReadout.textContent = `Kare: ${String(fInt).padStart(3, '0')} / ${timeline.durationInFrames} · ${sec}s`;
+
+      // Check procedural sound cues on playback
+      if (isPlaying) {
+        for (const cue of timeline.audioCues) {
+          if (Math.abs(cue.frame - fInt) <= 1 && !triggeredCues.has(cue.frame)) {
+            triggeredCues.add(cue.frame);
+            playProceduralCue(cue.type);
+          }
+        }
+      }
+    }
+
+    function loop(now) {
+      const dt = (now - lastTick) / 1000;
+      lastTick = now;
+      if (isPlaying) {
+        currentFrame += dt * timeline.fps;
+        if (currentFrame >= timeline.durationInFrames) {
+          currentFrame = 0;
+          triggeredCues.clear();
+        }
+        drawCurrent();
+      }
+      requestAnimationFrame(loop);
+    }
+
+    btnPlayPause.onclick = () => {
+      isPlaying = !isPlaying;
+      btnPlayPause.textContent = isPlaying ? '⏸ Duraklat' : '▶ Oynat';
+    };
+
+    btnRestart.onclick = () => {
+      currentFrame = 0;
+      triggeredCues.clear();
+      drawCurrent();
+    };
+
+    scrubber.oninput = (e) => {
+      isPlaying = false;
+      btnPlayPause.textContent = '▶ Oynat';
+      currentFrame = Number(e.target.value);
+      drawCurrent();
+    };
+
+    btnAudioToggle.onclick = () => {
+      soundEnabled = !soundEnabled;
+      btnAudioToggle.textContent = soundEnabled ? '🔊 Ses Efektleri: Açık' : '🔇 Ses Efektleri: Kapalı';
+    };
+
+    btnCompileJson.onclick = () => {
+      selectComposition('json-spec');
+      isPlaying = true;
+      btnPlayPause.textContent = '⏸ Duraklat';
+    };
+
+    // Instant client-side WebM export using MediaRecorder
+    btnExportWebM.onclick = async () => {
+      if (!canvas.captureStream || typeof MediaRecorder === 'undefined') {
+        alert('Tarayıcınız MediaRecorder desteklemiyor. Tam kalite MP4 için CLI `npm run render` komutunu kullanın.');
+        return;
+      }
+      btnExportWebM.disabled = true;
+      btnExportWebM.textContent = '⏳ Render Ediliyor...';
+      isPlaying = false;
+
+      const stream = canvas.captureStream(timeline.fps);
+      const chunks = [];
+      const recorder = new MediaRecorder(stream, { mimeType: 'video/webm;codecs=vp9', videoBitsPerSecond: 12_000_000 });
+      recorder.ondataavailable = (ev) => { if (ev.data.size > 0) chunks.push(ev.data); };
+
+      const donePromise = new Promise((resolve) => { recorder.onstop = resolve; });
+      recorder.start();
+
+      for (let f = 0; f < timeline.durationInFrames; f++) {
+        currentFrame = f;
+        drawCurrent();
+        await new Promise((r) => setTimeout(r, 1000 / timeline.fps));
+      }
+      recorder.stop();
+      await donePromise;
+
+      const blob = new Blob(chunks, { type: 'video/webm' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${timeline.id}.webm`;
+      a.click();
+
+      btnExportWebM.disabled = false;
+      btnExportWebM.textContent = '⬇ WebM Video İndir (Tarayıcıda Render)';
+      isPlaying = true;
+      btnPlayPause.textContent = '⏸ Duraklat';
+    };
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(() => drawCurrent());
+    }
+
+    renderCatalogCards();
+    updateTimelineUI();
+    drawCurrent();
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>

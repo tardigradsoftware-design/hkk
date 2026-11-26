@@ -1,0 +1,11 @@
+node_modules/
+dist/
+out/
+renders/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+audio/*.wav
+audio/*.mp3
+!examples/**/*.json

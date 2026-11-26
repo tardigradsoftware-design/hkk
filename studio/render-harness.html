@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Agent Motion — Deterministic Render Harness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { background: #000; overflow: hidden; width: 100%; height: 100%; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <canvas id="stage"></canvas>
+  <script type="module">
+    import { SHOWCASE_COMPOSITIONS } from '../examples/showcase-compositions.js';
+    import { compileSceneSpec } from '../src/grammars/scene-compiler.js';
+
+    const params = new URLSearchParams(window.location.search);
+    const specMode = params.get('spec');
+    const compName = params.get('comp') || 'launch-film-16x9';
+
+    let timeline;
+    if (specMode) {
+      const resp = await fetch('../api/spec');
+      const specJson = await resp.json();
+      timeline = compileSceneSpec(specJson);
+    } else {
+      const factory = SHOWCASE_COMPOSITIONS[compName] || SHOWCASE_COMPOSITIONS['launch-film-16x9'];
+      timeline = factory();
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      await document.fonts.ready;
+    }
+
+    const canvas = document.getElementById('stage');
+    canvas.width = timeline.width;
+    canvas.height = timeline.height;
+    const ctx = canvas.getContext('2d');
+
+    window.__AGENT_MOTION_MANIFEST = timeline.toManifest();
+    window.__seekFrame = (frameNum) => {
+      timeline.renderFrame(ctx, frameNum);
+    };
+
+    window.__seekFrame(0);
+    window.__AGENT_MOTION_READY = true;
+  </script>
+</body>
+</html>
