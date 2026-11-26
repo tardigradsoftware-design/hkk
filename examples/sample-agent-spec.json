@@ -1,0 +1,81 @@
+{
+  "id": "youtube-ai-explainer-demo",
+  "title": "AI Ajanları Nasıl Video Üretir?",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "bpm": 124,
+  "durationSeconds": 9,
+  "theme": {
+    "bgPrimary": "#07090F",
+    "bgSecondary": "#111827",
+    "ink": "#F8FAFC",
+    "accent": "#38BDF8"
+  },
+  "audioCues": [
+    { "frame": 2, "type": "subHit", "gain": 0.9, "note": "Opening Title Slam" },
+    { "frame": 170, "type": "shutter", "gain": 0.75, "note": "Whip Cut to Chart" },
+    { "frame": 350, "type": "chime", "gain": 0.85, "note": "Final Takeaway" }
+  ],
+  "scenes": [
+    {
+      "name": "hook-intro",
+      "from": 0,
+      "duration": 180,
+      "transitionOut": "whipWipe",
+      "elements": [
+        {
+          "type": "spatial3D",
+          "cx": 960,
+          "cy": 540,
+          "radius": 1.6
+        },
+        {
+          "type": "kineticHeadline",
+          "text": ["JSON Şemasından", "Sinematik Videoya"],
+          "fontSize": 90,
+          "accentWord": "Sinematik",
+          "exitStart": 148
+        }
+      ]
+    },
+    {
+      "name": "data-proof",
+      "from": 180,
+      "duration": 180,
+      "transitionOut": "whipWipe",
+      "elements": [
+        {
+          "type": "lineChart",
+          "title": "Üretim Hızı Karşılaştırması (Dakika Başına Kare)",
+          "data": [15, 28, 45, 90, 180, 360],
+          "labels": ["v0.1", "v0.2", "v0.4", "v0.6", "v0.8", "v1.0"],
+          "unit": " fps",
+          "highlightIndex": 5,
+          "highlightNote": "Deterministik Motor"
+        }
+      ]
+    },
+    {
+      "name": "outro-lockup",
+      "from": 360,
+      "duration": 180,
+      "elements": [
+        {
+          "type": "oversizeSlam",
+          "text": "100% KOD",
+          "y": 480,
+          "fontSize": 136
+        },
+        {
+          "type": "kineticHeadline",
+          "delay": 14,
+          "text": "Claude Code & Ajanlarla Tam Uyumlu",
+          "y": 640,
+          "fontSize": 46,
+          "accentWord": "Uyumlu"
+        }
+      ]
+    }
+  ]
+}
