@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1080, initial-scale=1.0" />
+<title>Classic Negroni — 100 BPM</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    background: #F4F0EA;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Inter", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  #stage {
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    background: #F4F0EA;
+  }
+  #camera {
+    position: absolute;
+    inset: 0;
+    transform-origin: 540px 580px;
+    will-change: transform, filter;
+  }
+  #glass-layer {
+    position: absolute;
+    inset: 0;
+  }
+  #hud-layer {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+  .label-kicker {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #8C8275;
+  }
+  .label-title {
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+    color: #1A1816;
+  }
+  .label-measure {
+    font-size: 88px;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 0.9;
+    color: #1A1816;
+    font-variant-numeric: tabular-nums;
+  }
+  .label-unit {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #6E655B;
+    margin-left: 6px;
+  }
+</style>
+</head>
+<body>
+<div id="stage">
+  <!-- Studio backdrop: soft architectural paper & subtle table plane -->
+  <svg width="1080" height="1080" viewBox="0 0 1080 1080" style="position:absolute;inset:0;">
+    <defs>
+      <filter id="dir-blur-x" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur id="blur-x-node" stdDeviation="0,0" />
+      </filter>
+      <filter id="dir-blur-y" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur id="blur-y-node" stdDeviation="0,0" />
+      </filter>
+      <clipPath id="glass-interior-clip">
+        <!-- Interior of the rocks glass: x 372..708, y 390..808 -->
+        <path d="M372,390 L708,390 L688,808 Q686,826 668,826 L412,826 Q394,826 392,808 Z" />
+      </clipPath>
+    </defs>
+    <!-- Soft studio table surface -->
+    <rect x="0" y="790" width="1080" height="290" fill="#EAE4DB" />
+    <line x1="0" y1="790" x2="1080" y2="790" stroke="#DDD5C9" stroke-width="2" />
+  </svg>
+
+  <div id="camera">
+    <div id="glass-layer">
+      <svg id="scene-svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+        <!-- Contact shadow under glass -->
+        <ellipse id="glass-shadow" cx="540" cy="844" rx="165" ry="20" fill="#D5CCC0" opacity="0.75" />
+
+        <!-- Pour stream (above glass, clipped or positioned into glass) -->
+        <g id="pour-stream-group" opacity="0">
+          <path id="pour-stream" d="M540,0 L540,400" stroke="#D93829" stroke-width="18" stroke-linecap="round" fill="none" />
+          <path id="pour-highlight" d="M536,0 L536,400" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.55" fill="none" />
+        </g>
+
+        <!-- Glass back wall -->
+        <path d="M360,378 L720,378 L698,814 Q695,840 668,840 L412,840 Q385,840 382,814 Z"
+              fill="#FFFFFF" fill-opacity="0.35" stroke="#CFC7BC" stroke-width="3" />
+
+        <!-- Clipped interior: Liquid layers + Ice + Stirring -->
+        <g clip-path="url(#glass-interior-clip)">
+          <!-- Base liquid layer (Gin: crystal clear with cool refraction) -->
+          <rect id="liq-gin" x="360" y="830" width="360" height="0" fill="#E8F1F2" fill-opacity="0.55" />
+          <!-- Campari layer (vibrant ruby-red) -->
+          <rect id="liq-campari" x="360" y="830" width="360" height="0" fill="#D62828" fill-opacity="0.88" />
+          <!-- Sweet Vermouth layer (deep amber-garnet) -->
+          <rect id="liq-vermouth" x="360" y="830" width="360" height="0" fill="#7A1C1C" fill-opacity="0.90" />
+          <!-- Unified stirred Negroni color overlay -->
+          <rect id="liq-mixed" x="360" y="830" width="360" height="0" fill="#B8251E" fill-opacity="0" />
+
+          <!-- Liquid surface meniscus -->
+          <ellipse id="liq-meniscus" cx="540" cy="826" rx="158" ry="10" fill="#FFFFFF" fill-opacity="0.35" opacity="0" />
+
+          <!-- Large Crystal Ice Cube -->
+          <g id="ice-cube" transform="translate(540, 200)" opacity="0">
+            <rect x="-86" y="-86" width="172" height="172" rx="14" fill="#FFFFFF" fill-opacity="0.48" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.85" />
+            <polygon points="-72,-72 72,-72 52,-42 -52,-42" fill="#FFFFFF" fill-opacity="0.45" />
+            <line x1="-60" y1="-20" x2="-30" y2="55" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.5" stroke-linecap="round" />
+            <line x1="45" y1="-45" x2="62" y2="35" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.4" stroke-linecap="round" />
+          </g>
+
+          <!-- Stirring bar spoon -->
+          <g id="bar-spoon" transform="translate(540, 100)" opacity="0">
+            <rect x="-4" y="-320" width="8" height="620" rx="4" fill="#B8B2A8" />
+            <rect x="-2" y="-320" width="3" height="620" fill="#FFFFFF" fill-opacity="0.7" />
+            <ellipse cx="0" cy="304" rx="16" ry="22" fill="#A69F94" />
+          </g>
+        </g>
+
+        <!-- Glass front rim & specular highlights (crisp product photography) -->
+        <path d="M360,378 L720,378 L698,814 Q695,840 668,840 L412,840 Q385,840 382,814 Z"
+              fill="none" stroke="#B8AFA3" stroke-width="3.5" />
+        <!-- Heavy glass base -->
+        <path d="M385,804 L695,804 L692,824 Q690,838 668,838 L412,838 Q390,838 388,824 Z"
+              fill="#FFFFFF" fill-opacity="0.42" />
+        <!-- Crisp vertical specular highlight -->
+        <path d="M394,405 L408,792" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.75" />
+        <path d="M686,405 L674,792" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.45" />
+        <!-- Top rim ellipse -->
+        <ellipse cx="540" cy="378" rx="180" ry="12" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.85" />
+
+        <!-- Orange Peel Garnish -->
+        <g id="orange-peel" transform="translate(540, 220)" opacity="0">
+          <path d="M-45,-10 C-20,-42 35,-36 52,-4 C66,22 38,44 10,34 C-12,26 -30,10 -45,-10 Z"
+                fill="#F27D16" stroke="#C95B0C" stroke-width="3" />
+          <path d="M-32,-8 C-14,-28 24,-24 36,-2" fill="none" stroke="#FFA94D" stroke-width="4" stroke-linecap="round" />
+        </g>
+
+        <!-- Citrus mist particles (expressed oils) -->
+        <g id="citrus-mist" opacity="0">
+          <circle cx="480" cy="310" r="3" fill="#F27D16" />
+          <circle cx="515" cy="290" r="2.5" fill="#FFA94D" />
+          <circle cx="560" cy="305" r="3.5" fill="#F27D16" />
+          <circle cx="595" cy="285" r="2" fill="#FFA94D" />
+          <circle cx="535" cy="275" r="2.5" fill="#F27D16" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- Typography / Measurement HUD -->
+    <div id="hud-layer">
+      <!-- Top-left: Recipe Kicker & Title -->
+      <div id="header-block" style="position:absolute; left:72px; top:68px;">
+        <div class="label-kicker" id="kicker-text">CLASSIC NEGRONI · 100 BPM</div>
+        <div class="label-title" id="main-title" style="margin-top:8px;">EMPTY GLASS</div>
+      </div>
+
+      <!-- Right-side measurement callout beside the glass -->
+      <div id="measure-block" style="position:absolute; right:72px; top:470px; text-align:right; opacity:0;">
+        <div class="label-kicker" id="ing-name">GIN</div>
+        <div style="margin-top:6px;">
+          <span class="label-measure" id="ing-val">30</span><span class="label-unit" id="ing-unit">ML</span>
+        </div>
+        <div class="label-kicker" id="ing-sub" style="margin-top:8px; color:#A3988A;">1.0 OZ · DRY</div>
+      </div>
+
+      <!-- Beat progress bar at bottom -->
+      <div style="position:absolute; left:72px; right:72px; bottom:56px; height:4px; background:#DFD8CE; border-radius:2px; overflow:hidden;">
+        <div id="progress-fill" style="width:0%; height:100%; background:#1A1816;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const BPM = 100;
+  const BEAT = 60 / BPM; // 0.6s
+  const BAR = BEAT * 4;  // 2.4s
+  const TOTAL = 30.0;    // 50 beats = 12.5 bars
+
+  // Pure time-based easing functions
+  function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
+  function lerp(a, b, t) { return a + (b - a) * t; }
+  function expOut(t, k = 6) {
+    t = clamp(t, 0, 1);
+    return t === 1 ? 1 : 1 - Math.exp(-k * t);
+  }
+  function expInOut(t, k = 6) {
+    t = clamp(t, 0, 1);
+    if (t < 0.5) return 0.5 * (1 - expOut(1 - 2 * t, k));
+    return 0.5 + 0.5 * expOut(2 * t - 1, k);
+  }
+  // Damped spring as a pure function of normalized time t in [0, 1]
+  function spring(t, freq = 14, damp = 7) {
+    t = clamp(t, 0, 1);
+    if (t === 0) return 0;
+    if (t === 1) return 1;
+    return 1 - Math.exp(-damp * t) * Math.cos(freq * t);
+  }
+
+  // Timeline segments (in seconds, aligned to 100 BPM: 0.6s/beat, 2.4s/bar)
+  // Bar 1 (0.0 - 2.4): Empty Glass -> Ice Cube Drop
+  // Bar 2 (2.4 - 4.8): Gin 30ml
+  // Bar 3 (4.8 - 7.2): Campari 30ml
+  // Bar 4 (7.2 - 9.6): Sweet Vermouth 30ml
+  // Bar 5-7 (9.6 - 16.8): Rapid Stirring & Dilution
+  // Bar 8-9 (16.8 - 21.6): Expressed Orange Peel & Mist
+  // Bar 10-12.5 (21.6 - 30.0): Camera Ease-In & Hero Finish
+
+  window.seek = function(t) {
+    t = clamp(t, 0, TOTAL);
+    const beatPos = t / BEAT;
+    const halfBeatPulse = Math.exp(-8 * (beatPos % 0.5));
+
+    // Camera transform: subtle beat punch + smooth ease-in for the finish (21.6s - 30.0s)
+    const finishP = clamp((t - 21.6) / 8.4, 0, 1);
+    const camScale = 1 + 0.14 * expInOut(finishP, 5) + 0.008 * halfBeatPulse * (t < 21.6 ? 1 : 0);
+    const camY = -28 * expInOut(finishP, 5);
+    const camEl = document.getElementById('camera');
+    camEl.style.transform = `translate3d(0, ${camY.toFixed(2)}px, 0) scale(${camScale.toFixed(4)})`;
+
+    // Progress bar
+    document.getElementById('progress-fill').style.width = `${(t / TOTAL * 100).toFixed(2)}%`;
+
+    // 1. Ice Cube (drops at t = 0.6s, settles with spring)
+    const iceEl = document.getElementById('ice-cube');
+    if (t < 0.6) {
+      iceEl.setAttribute('opacity', '0');
+    } else {
+      const iceP = clamp((t - 0.6) / 0.9, 0, 1);
+      const iceY = lerp(220, 725, spring(iceP, 16, 8));
+      const iceRot = lerp(-18, 4, expOut(iceP, 7));
+      // Motion blur proportional to vertical velocity
+      const vel = iceP < 0.4 ? Math.abs(Math.cos(iceP * Math.PI)) * 6 : 0;
+      iceEl.setAttribute('opacity', '1');
+      iceEl.setAttribute('transform', `translate(540, ${iceY.toFixed(1)}) rotate(${iceRot.toFixed(2)})`);
+      iceEl.style.filter = vel > 0.5 ? `blur(${vel.toFixed(1)}px)` : 'none';
+    }
+
+    // 2. Liquid levels (bottom of interior is y = 826)
+    // Gin: 2.4s -> 4.5s (height 0 -> 95px)
+    // Campari: 4.8s -> 6.9s (height 0 -> 95px)
+    // Vermouth: 7.2s -> 9.3s (height 0 -> 95px)
+    const ginP = clamp((t - 2.4) / 1.8, 0, 1);
+    const campP = clamp((t - 4.8) / 1.8, 0, 1);
+    const vermP = clamp((t - 7.2) / 1.8, 0, 1);
+
+    const ginH = 95 * expOut(ginP, 5);
+    const campH = 95 * expOut(campP, 5);
+    const vermH = 95 * expOut(vermP, 5);
+    const totalH = ginH + campH + vermH;
+
+    const baseY = 826;
+    const ginEl = document.getElementById('liq-gin');
+    const campEl = document.getElementById('liq-campari');
+    const vermEl = document.getElementById('liq-vermouth');
+    const mixedEl = document.getElementById('liq-mixed');
+    const meniscusEl = document.getElementById('liq-meniscus');
+
+    ginEl.setAttribute('y', (baseY - ginH).toFixed(1));
+    ginEl.setAttribute('height', ginH.toFixed(1));
+
+    campEl.setAttribute('y', (baseY - ginH - campH).toFixed(1));
+    campEl.setAttribute('height', campH.toFixed(1));
+
+    vermEl.setAttribute('y', (baseY - totalH).toFixed(1));
+    vermEl.setAttribute('height', vermH.toFixed(1));
+
+    // Stirring blends the layers into unified ruby-amber Negroni (9.6s -> 15.0s)
+    const mixP = clamp((t - 10.2) / 4.2, 0, 1);
+    mixedEl.setAttribute('y', (baseY - totalH).toFixed(1));
+    mixedEl.setAttribute('height', totalH.toFixed(1));
+    mixedEl.setAttribute('fill-opacity', (0.92 * expOut(mixP, 4)).toFixed(3));
+
+    if (totalH > 2) {
+      meniscusEl.setAttribute('opacity', '1');
+      meniscusEl.setAttribute('cy', (baseY - totalH).toFixed(1));
+    } else {
+      meniscusEl.setAttribute('opacity', '0');
+    }
+
+    // Pour Stream
+    const pourGroup = document.getElementById('pour-stream-group');
+    const pourPath = document.getElementById('pour-stream');
+    const pourHi = document.getElementById('pour-highlight');
+    let pouring = false;
+    let pourColor = '#E8F1F2';
+    let pourWidth = 14;
+    if (t >= 2.4 && t <= 4.3) { pouring = true; pourColor = '#DCE8EA'; }
+    else if (t >= 4.8 && t <= 6.7) { pouring = true; pourColor = '#D62828'; }
+    else if (t >= 7.2 && t <= 9.1) { pouring = true; pourColor = '#7A1C1C'; }
+
+    if (pouring) {
+      const topY = baseY - totalH;
+      const sway = Math.sin(t * 24) * 3;
+      pourGroup.setAttribute('opacity', '0.92');
+      pourPath.setAttribute('stroke', pourColor);
+      pourPath.setAttribute('stroke-width', pourWidth);
+      pourPath.setAttribute('d', `M${(540 + sway).toFixed(1)},0 Q${(540 - sway).toFixed(1)},${(topY * 0.5).toFixed(1)} 540,${topY.toFixed(1)}`);
+      pourHi.setAttribute('d', `M${(536 + sway).toFixed(1)},0 Q${(536 - sway).toFixed(1)},${(topY * 0.5).toFixed(1)} 536,${topY.toFixed(1)}`);
+    } else {
+      pourGroup.setAttribute('opacity', '0');
+    }
+
+    // 3. Bar Spoon Stir (9.6s -> 16.5s)
+    const spoonEl = document.getElementById('bar-spoon');
+    if (t >= 9.6 && t <= 16.8) {
+      const enterP = clamp((t - 9.6) / 0.4, 0, 1);
+      const exitP = clamp((t - 16.2) / 0.6, 0, 1);
+      const yOffset = lerp(-400, 480, expOut(enterP, 6)) - lerp(0, 880, expOut(exitP, 5));
+      const orbitX = Math.sin((t - 9.6) * 14) * 58 * (1 - exitP);
+      spoonEl.setAttribute('opacity', '1');
+      spoonEl.setAttribute('transform', `translate(${(540 + orbitX).toFixed(1)}, ${yOffset.toFixed(1)})`);
+    } else {
+      spoonEl.setAttribute('opacity', '0');
+    }
+
+    // 4. Orange Peel Garnish & Citrus Mist (16.8s -> 30.0s)
+    const peelEl = document.getElementById('orange-peel');
+    const mistEl = document.getElementById('citrus-mist');
+    if (t >= 16.8) {
+      const peelP = clamp((t - 16.8) / 0.8, 0, 1);
+      const peelY = lerp(220, 485, spring(peelP, 15, 7));
+      const peelRot = lerp(-35, 12, expOut(peelP, 6));
+      peelEl.setAttribute('opacity', '1');
+      peelEl.setAttribute('transform', `translate(595, ${peelY.toFixed(1)}) rotate(${peelRot.toFixed(1)})`);
+
+      const mistP = clamp((t - 17.1) / 1.2, 0, 1);
+      const mistOp = mistP > 0 && mistP < 1 ? Math.sin(mistP * Math.PI) * 0.9 : 0;
+      mistEl.setAttribute('opacity', mistOp.toFixed(2));
+      mistEl.setAttribute('transform', `translate(0, ${(-mistP * 25).toFixed(1)}) scale(${(1 + mistP * 0.25).toFixed(3)})`);
+    } else {
+      peelEl.setAttribute('opacity', '0');
+      mistEl.setAttribute('opacity', '0');
+    }
+
+    // 5. Typography & Measurement HUD
+    const titleEl = document.getElementById('main-title');
+    const measureEl = document.getElementById('measure-block');
+    const ingName = document.getElementById('ing-name');
+    const ingVal = document.getElementById('ing-val');
+    const ingUnit = document.getElementById('ing-unit');
+    const ingSub = document.getElementById('ing-sub');
+
+    let title = 'EMPTY GLASS';
+    let showMeasure = false;
+    let mName = '', mVal = '', mUnit = '', mSub = '';
+    let stepStart = 0;
+
+    if (t < 0.6) {
+      title = 'EMPTY GLASS';
+    } else if (t < 2.4) {
+      title = 'CRYSTAL ICE';
+      showMeasure = true; mName = 'ICE BLOCK'; mVal = '1'; mUnit = 'CUBE'; mSub = '2-INCH · CLEAR'; stepStart = 0.6;
+    } else if (t < 4.8) {
+      title = 'LONDON DRY GIN';
+      showMeasure = true; mName = 'GIN'; mVal = '30'; mUnit = 'ML'; mSub = '1.0 OZ · DRY'; stepStart = 2.4;
+    } else if (t < 7.2) {
+      title = 'CAMPARI';
+      showMeasure = true; mName = 'CAMPARI'; mVal = '30'; mUnit = 'ML'; mSub = '1.0 OZ · BITTER'; stepStart = 4.8;
+    } else if (t < 9.6) {
+      title = 'SWEET VERMOUTH';
+      showMeasure = true; mName = 'VERMOUTH'; mVal = '30'; mUnit = 'ML'; mSub = '1.0 OZ · SWEET'; stepStart = 7.2;
+    } else if (t < 16.8) {
+      title = 'STIR & CHILL';
+      showMeasure = true; mName = 'BAR SPOON'; mVal = '15'; mUnit = 'SEC'; mSub = 'DILUTE · CHILL'; stepStart = 9.6;
+    } else if (t < 21.6) {
+      title = 'ORANGE PEEL';
+      showMeasure = true; mName = 'GARNISH'; mVal = '1'; mUnit = 'TWIST'; mSub = 'EXPRESSED OILS'; stepStart = 16.8;
+    } else {
+      title = 'CLASSIC NEGRONI';
+      showMeasure = false;
+    }
+
+    titleEl.textContent = title;
+    if (showMeasure) {
+      const mP = clamp((t - stepStart) / 0.35, 0, 1);
+      const slideX = lerp(40, 0, spring(mP, 18, 9));
+      measureEl.style.opacity = expOut(mP, 8).toFixed(3);
+      measureEl.style.transform = `translate3d(${slideX.toFixed(1)}px, 0, 0)`;
+      ingName.textContent = mName;
+      ingVal.textContent = mVal;
+      ingUnit.textContent = mUnit;
+      ingSub.textContent = mSub;
+    } else {
+      measureEl.style.opacity = '0';
+    }
+  };
+
+  // Initialize at t = 0
+  window.seek(0);
+
+  // Live preview playback when opened with ?play=1
+  if (typeof window !== 'undefined' && window.location && window.location.search.includes('play=1')) {
+    const start = performance.now();
+    const audio = new Audio('soundtrack.wav');
+    audio.play().catch(() => {});
+    function loop(now) {
+      const t = ((now - start) / 1000) % TOTAL;
+      window.seek(t);
+      requestAnimationFrame(loop);
+    }
+    requestAnimationFrame(loop);
+  }
+})();
+</script>
+</body>
+</html>

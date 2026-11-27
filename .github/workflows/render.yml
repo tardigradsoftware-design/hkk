@@ -1,0 +1,35 @@
+name: Render Negroni Video
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - arena/e76d30ec-hkk
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Playwright & Chromium
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install chromium
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Render 60fps 3-subframe MP4
+        run: node render.mjs
+
+      - name: Upload MP4 Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: negroni-video
+          path: negroni_1080x1080.mp4
