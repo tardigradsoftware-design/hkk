@@ -28,8 +28,10 @@ jobs:
       - name: Render 60fps 3-subframe MP4
         run: node render.mjs
 
-      - name: Upload MP4 Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: negroni-video
-          path: negroni_1080x1080.mp4
+      - name: Commit & Push MP4
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add negroni_1080x1080.mp4
+          git commit -m "Add rendered negroni_1080x1080.mp4"
+          git push origin HEAD:arena/e76d30ec-hkk
